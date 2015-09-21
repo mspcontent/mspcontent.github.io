@@ -1,0 +1,49 @@
+body{
+	background-color:#E6E6E6;
+	font-family: "Segoe UI";
+    font-weight: 300;
+	margin: auto;
+    width: 95%;
+	
+}
+
+}
+a
+{
+	
+	display:block;
+
+}
+li {
+    display: inline;
+	margin-right:30px;
+	margin-bottom:10px;
+	float:left;
+}
+p.PageTitle
+{
+	
+}
+.GitHubItem
+{
+	display: block;
+	float:left;
+	background:white;
+	margin:5px;
+	padding:5px;
+	width:100%;
+}
+p.GitHubTitle
+{
+	font-size:25px;
+	margin-top:5px;
+}
+p.GitHubDescription
+{
+	font-size:14px;
+}
+p.GitHubAuthor
+{
+	font-weight: 600;
+	font-size:16px;
+}
