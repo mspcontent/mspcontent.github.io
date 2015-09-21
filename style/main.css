@@ -37,6 +37,7 @@ p.GitHubTitle
 {
 	font-size:25px;
 	margin-top:5px;
+	width:100%;
 }
 p.GitHubDescription
 {
@@ -47,4 +48,5 @@ p.GitHubAuthor
 {
 	font-weight: 600;
 	font-size:16px;
+	width:100%;
 }
