@@ -10,7 +10,7 @@ body{
 }
 a
 {
-	font-size:18px;
+	
 	display:block;
 
 }
@@ -35,18 +35,18 @@ p.PageTitle
 }
 p.GitHubTitle
 {
-	font-size:32px;
+	font-size:25px;
 	margin-top:5px;
 	width:100%;
 }
 p.GitHubDescription
 {
-	font-size:22px;
+	font-size:14px;
 	width:100%;
 }
 p.GitHubAuthor
 {
 	font-weight: 600;
-	font-size:26px;
+	font-size:16px;
 	width:100%;
 }
