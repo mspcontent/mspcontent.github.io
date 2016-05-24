@@ -32,6 +32,8 @@ p.PageTitle
 	margin:5px;
 	padding:5px;
 	width:100%;
+	min-width: 300px;
+	max-width: 500px;
 }
 p.GitHubTitle
 {
