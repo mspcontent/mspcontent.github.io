@@ -18,7 +18,7 @@
 		"title":"Jade Templating",
 			"author":"Steven Eduardo",
 			"description": "In this lab we will use Express to create Node recipes a full fledged website which can scale to mobile browsers as well as to the desktop. By the end of this lab you will know 1. How to write html templates with jade2. How to render a view with a jade template and a model using a route",
-			"link": "https://github.com/mspcontent/Django-From-Azure",
+			"link": "https://github.com/mspcontent/jade-templating",
 			"tags":["web","jade"]
 	}
 ]
