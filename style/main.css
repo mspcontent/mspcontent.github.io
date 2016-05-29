@@ -30,7 +30,7 @@ p.PageTitle
 	float:left;
 	background:white;
 	margin:10px;
-	padding:5px;
+	/*padding:5px;*/
 	width:400px;
 	height: 400px;
 	color: black;
