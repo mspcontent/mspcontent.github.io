@@ -54,7 +54,7 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 
 <div style="float:left; margin-bottom:10px; width:100%" ng-app="myApp" ng-controller="myCtrl" >
 
-<div style="width:100%;">
+
 
 <div class="GitHubItem" ng-repeat="item in data" >
 	<div onclick="location.href = id" id={{item.link}}>
@@ -64,27 +64,14 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 		{{item.description}}
 		</p>
 		<ul ng-repeat="tag in item.tags">
-			<li>{{tag}}</li>
+			<li class="GitHubTags">{{tag}}</li>
 		</ul>
 	</div>
 </div>
 </div>
 
 
-<div style="width:100%;">
-<p style="font-size:32px; margin-bottom:10px; ">Content Made by MSPs</p>
 
-
-<div style="float:left; margin-bottom:10px;">
-
-
-
-
-
-
-
-</div>
-</div>
 
 
 </div>
