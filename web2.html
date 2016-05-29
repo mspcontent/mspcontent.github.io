@@ -56,7 +56,7 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 
 
 
-<div class="GitHubItem" ng-repeat="item in data" >
+<div class="GitHubItem" ng-repeat="item in data| Web in item.tags" >
 	<div onclick="location.href = id" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
 		<p class="GitHubAuthor">{{item.author}}</p>
@@ -64,7 +64,7 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 		{{item.description}}
 		</p>
 		<div style="background:#2F5596; width:100%; height:25px;">
-		<span color="white">Tags</span>
+		
 		<ul ng-repeat="tag in item.tags" >
 			<li class="GitHubTags">{{tag}}</li>
 		</ul>
