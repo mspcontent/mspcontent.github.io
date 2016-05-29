@@ -5,8 +5,8 @@
 <script>
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
-    $http.get('data/data.json').success(function(data) {
-		$scope.data = data;
+    $http.get('data/data.json').success(function(response) {
+		$scope.data = response;
 	}).
 	error(function(data) {
 	console.log(data);
@@ -26,7 +26,8 @@ app.controller('myCtrl', function($scope, $http) {
 
 
 </head>
-<body  >
+
+<body>
 
 <div width="100%">
 <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;"/>
