@@ -5,10 +5,12 @@
 <script>
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
-    $http.jsonp('data/data.json').success(function(data) {
-   $scope.data = data;
-   console.log(data);
-});
+    $http.get('data/data.json').success(function(data) {
+		$scope.data = data;
+	}).
+	error(function(data) {
+	console.log(data);
+	});
    
 });
 </script>
@@ -73,6 +75,6 @@ app.controller('myCtrl', function($scope, $http) {
 
 
 
-
+</div>
 </body>
 </html>
