@@ -18,7 +18,6 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 		}).then(function mySuccess(response) {
 			$scope.data=response.data;
 		}, function myError(response){
-			$scope.message= response.statusText;
 			console.log("error");
 		});
 		
@@ -55,21 +54,24 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 
 <div style="float:left; margin-bottom:10px; width:100%" ng-app="myApp" ng-controller="myCtrl" >
 
-<div > {{message}}</div>
+
 
 <div class="GitHubItem" ng-repeat="item in data" >
-<div onclick="location.href = id" id={{item.link}}>
-<p class="GitHubTitle">{{item.title}}</p> 
-<p class="GitHubAuthor">{{item.author}}</p>
-<p class="GitHubDescription">
-{{item.description}}
-</p>
+	<div onclick="location.href = id" id={{item.link}}>
+		<p class="GitHubTitle">{{item.title}}</p> 
+		<p class="GitHubAuthor">{{item.author}}</p>
+		<p class="GitHubDescription">
+		{{item.description}}
+		</p>
+		<ul ng-repeat="tag in item.tags">
+			<li>{{tag}}</li>
+		</ul>
+	</div>
 </div>
-</div>
 
 
 
-
+<br/>
 <p style="font-size:32px; margin-bottom:10px; ">Content Made by MSPs</p>
 
 
