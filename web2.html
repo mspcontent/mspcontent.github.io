@@ -2,28 +2,32 @@
 <html >
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
-<script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope, $http) {
-$scope.message="test";
-    $http.get("http://mspcontent.github.io/web.html").success(function(response)
-	{
-		$scope.data = response.data;
-		$scope.message=response.statusText;
-	}).
-	error(function(data) {
-	$scope.message=data;
-	console.log(data);
-	});
-   
-});
-</script>
+
 
 
 
 
 
 <head>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
+	$http({
+		method:"GET",
+		url: "data.json"
+		}).then(function mySuccess(response) {
+			$scope.data=response.data;
+		}, function myError(response){
+			$scope.message= response.statusText;
+			console.log("error");
+		});
+		
+	}]);
+</script>
+
+
+
+
 <title>MSP Content - Web</title>
 <link rel="stylesheet" href="style/main.css" type="text/css" >
 <link rel="shortcut icon" href="./images/flame.ico" >
