@@ -5,10 +5,14 @@
 <script>
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
-    $http.get('data/data.json').success(function(response) {
-		$scope.data = response;
+$scope.message="test";
+    $http.get("http://mspcontent.github.io/web.html").success(function(response)
+	{
+		$scope.data = response.data;
+		$scope.message=response.statusText;
 	}).
 	error(function(data) {
+	$scope.message=data;
 	console.log(data);
 	});
    
@@ -47,6 +51,7 @@ app.controller('myCtrl', function($scope, $http) {
 
 <div style="float:left; margin-bottom:10px; width:100%" ng-app="myApp" ng-controller="myCtrl" >
 
+<div > {{message}}</div>
 
 <div class="GitHubItem" ng-repeat="item in data" >
 <div onclick="location.href = id" id={{item.link}}>
