@@ -5,12 +5,12 @@ To add new content, edit this file and create a new json element, it is importan
 <br />
 
 [<br />
-  ...<br />
-  },<br />
-  {<br />
-    "title": "INSERT TITLE HERE",<br />
-    "author": "AUTHOR NAME",<br />
-    "description": "DESCRIPTION- Must be all in one line otherwise it will break the json formatting",<br />
-    "tags": ["TAG1","TAG2",...]<br />
-  }<br />
+&#9;  ...<br />
+&#9;&#9;  },<br />
+&#9;&#9;  {<br />
+&#9;&#9;&#9;    "title": "INSERT TITLE HERE",<br />
+&#9;&#9;&#9;    "author": "AUTHOR NAME",<br />
+&#9;&#9;&#9;    "description": "DESCRIPTION- Must be all in one line otherwise it will break the json formatting",<br />
+&#9;&#9;&#9;    "tags": ["TAG1","TAG2",...]<br />
+&#9;&#9;  }<br />
 ]<br />
