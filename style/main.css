@@ -60,7 +60,8 @@ p.PageTitle
 	height: 240px;
 	text-overflow:clip;
 	overflow:hidden;
-	margin:5px;
+	padding:5px;
+
 }
 .GitHubAuthor
 {
