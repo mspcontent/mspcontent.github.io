@@ -26,7 +26,7 @@ app.filter('filterByTags', function() {
 			console.log(item);
 			var contains=false;
 			angular.forEach(item.tags, function(tag) {
-				if(tag.toLowerCase().indexOf(key.toLowerCase())>-1)
+				if(tag.toLowerCase().indexOf(key.toLowerCase())>-1||key.toLowerCase()=="all")
 					contains=true;
 			});
 			if(contains==true)
@@ -67,7 +67,7 @@ app.filter('filterByTags', function() {
     margin: 0;
     padding: 0;" >
 <li><a href="index.html" >HOME</a></li>
-<li><a ng-click="tag='';" >ALL</a></li>
+<li><a ng-click="tag='All';" >ALL</a></li>
 <li><a ng-click="tag='Web';" >WEB</a></li>
 <li><a ng-click="tag='UWP';" >UWP</a></li>
 <li><a ng-click="tag='Game';" >GAME</a></li>
