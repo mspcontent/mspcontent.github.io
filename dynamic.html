@@ -5,7 +5,7 @@
 <script >
 var app = angular.module('myApp', []);
 app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
-	
+	$scope.tag="Web";
 	$http({
 		method:"GET",
 		url: "data.json"
@@ -50,7 +50,7 @@ app.filter('filterByTags', function() {
 
 
 
-<title>MSP Content - {{tag}}</title>
+<title>MSP Content - Web</title>
 <link rel="stylesheet" href="style/main.css" type="text/css" >
 <link rel="shortcut icon" href="./images/flame.ico" >
 
@@ -61,16 +61,16 @@ app.filter('filterByTags', function() {
 
 <div width="100%">
 <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;"/>
-<p style="font-size:50px; margin-bottom:10px; display:inline;">Web - Microsoft Student Partner Content</p>
+<p style="font-size:50px; margin-bottom:10px; display:inline;">{{tag}} - Microsoft Student Partner Content</p>
 </div>
 <ul style="list-style-type: none; display:inline;
     margin: 0;
     padding: 0;" >
-<li><a href="index.html" >HOME</li>
-<li ng-click="tag='Web'" >WEB</li>
-<li ng-click="tag='UWP'" >UWP</li>
-<li ng-click="tag='Game'" >GAME</li>
-<li ng-click="tag='Iot'" >IoT</li>
+<li><a href="index.html" >HOME</a></li>
+<li><button ng-click="tag='Web';" >WEB</button></li>
+<li><button ng-click="tag='UWP';" >UWP</button></li>
+<li><button ng-click="tag='Game';" >GAME</button></li>
+<li><button ng-click="tag='Iot';" >IoT</button></li>
 </ul>
 
 
