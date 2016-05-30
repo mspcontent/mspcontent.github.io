@@ -8,7 +8,7 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 	$scope.tag="Web";
 	$http({
 		method:"GET",
-		url: "data/data.json"
+		url: "data.json"
 		}).then(function mySuccess(response) {
 			$scope.data=response.data;
 		}, function myError(response){
@@ -67,10 +67,10 @@ app.filter('filterByTags', function() {
     margin: 0;
     padding: 0;" >
 <li><a href="index.html" >HOME</a></li>
-<li><a ng-href=""ng-click="tag='Web';" >WEB</a></li>
-<li><a ng-href=""ng-click="tag='UWP';" >UWP</a></li>
-<li><a ng-href="" ng-click="tag='Game';" >GAME</a></li>
-<li><a ng-href="" ng-click="tag='Iot';" >IoT</a></li>
+<li><a ng-click="tag='Web';" >WEB</a></li>
+<li><a ng-click="tag='UWP';" >UWP</a></li>
+<li><a ng-click="tag='Game';" >GAME</a></li>
+<li><a ng-click="tag='Iot';" >IoT</a></li>
 </ul>
 
 
