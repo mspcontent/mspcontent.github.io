@@ -102,7 +102,7 @@
 	{
 		"title":"Running Remote Desktop on a Windows Azure Linux VM",
 		"author":"Planky",
-		"description","There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
+		"description":"There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
 		"tags":["Web","Azure","Linux"]
 	},
 	{
