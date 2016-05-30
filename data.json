@@ -82,7 +82,7 @@
 		"author": "David Washington",
 		"description":"Mission: Real-time multiplayer chessSo, let’s make a multiplayer chess game that where when you make a move it’s reflected on your opponent’s screen in real-time. Instantly. Checkmate.",
 		"link":"http://dwcares.com/2015/10/21/realchess/",
-		"tags":["Azure","Node","JavaScript","Socket.io"]
+		"tags":["Web","Azure","Node","JavaScript","Socket.io"]
 	},
 	{
 		"title":"Awesome Unity Examples",
@@ -98,5 +98,23 @@
 		"link":"https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
 		"tags":["Web","Azure","PHP","Node",".NET"]
 		
+	},
+	{
+		"title":"Running Remote Desktop on a Windows Azure Linux VM",
+		"author":"Planky",
+		"description","There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
+		"tags":["Web","Azure","Linux"]
+	},
+	{
+		"title":"UWP Development",
+		"author":"Windows Dev",
+		"description":"Get started with UWP developement",
+		"tags":["UWP","C#","Phone"]
+	},
+	{
+		"title":"Xamarin.Forms Workshop",
+		"author":"Pierce Boggan",
+		"description":"Everything you need to run a workshop on Xamarin's native mobile cross platform apps",
+		"tags":["Xamarin", "Phone","UWP", "iOS","Andriod","C#"]
 	}
 ]
