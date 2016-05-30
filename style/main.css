@@ -60,6 +60,8 @@ p.PageTitle
 	height: 230px;
 	text-overflow:clip;
 	overflow:hidden;
+	width:90%;
+	margin:5px;
 	/*margin:10px;*/
 
 }
