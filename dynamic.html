@@ -26,7 +26,7 @@ app.filter('filterByTags', function() {
 			console.log(item);
 			var contains=false;
 			angular.forEach(item.tags, function(tag) {
-				if(tag.toLowerCase()==key.toLowerCase())
+				if(key.toLowerCase().indexOf(tag.toLowerCase())>-1)
 					contains=true;
 			});
 			if(contains==true)
