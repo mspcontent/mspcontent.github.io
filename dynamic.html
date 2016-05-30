@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<script >
+var app = angular.module('myApp', []);
+app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
+	
+	$http({
+		method:"GET",
+		url: "data.json"
+		}).then(function mySuccess(response) {
+			$scope.data=response.data;
+		}, function myError(response){
+			console.log("error");
+		});
+		
+	}]);
+
+app.filter('filterByTags', function() {
+    return function(items, key) {
+		var filtered=[];
+		
+		angular.forEach(items,function(item)
+		{
+			console.log(item);
+			var contains=false;
+			angular.forEach(item.tags, function(tag) {
+				if(tag.toLowerCase()==key.toLowerCase())
+					contains=true;
+			});
+			if(contains==true)
+				filtered.push(item);
+		});
+        return filtered;
+        
+    };
+});
+
+
+</script>
+
+
+
+
+
+<head>
+
+
+
+
+
+<title>MSP Content - Web</title>
+<link rel="stylesheet" href="style/main.css" type="text/css" >
+<link rel="shortcut icon" href="./images/flame.ico" >
+
+
+</head>
+
+<body>
+
+<div width="100%">
+<img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;"/>
+<p style="font-size:50px; margin-bottom:10px; display:inline;">Web - Microsoft Student Partner Content</p>
+</div>
+<ul style="list-style-type: none; display:inline;
+    margin: 0;
+    padding: 0;" >
+<li><a href="index.html" >HOME</a></li>
+<li><a ng-click="tag='Web'" >WEB</a></li>
+<li><a ng-click="tag='UWP'" >UWP</a></li>
+<li><a ng-click="tag='Game'" >GAME</a></li>
+<li><a ng-click="tag='Iot'" >IoT</a></li>
+</ul>
+
+
+
+<div style="float:left; margin-bottom:10px; width:100%" ng-app="myApp" ng-controller="myCtrl" >
+
+
+
+<div class="GitHubItem" ng-repeat="item in data| filterByTags:{{tag}} " >
+	<div onclick="location.href = id" id={{item.link}}>
+		<p class="GitHubTitle">{{item.title}}</p> 
+		<p class="GitHubAuthor">{{item.author}}</p>
+		<p class="GitHubDescription" >{{item.description}}</p>
+		<div style="background:#2F5596; width:100%; float:bottom; height:25px; bottom:0px; position:relative;">
+		
+		<ul ng-repeat="tag in item.tags" >
+			<li class="GitHubTags">{{tag}}</li>
+		</ul>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>
