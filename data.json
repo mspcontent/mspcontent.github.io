@@ -96,7 +96,7 @@
 		"author":"Scott and Stefan",
 		"description":"Scott and Stefan dig into what's required of an Azure Web Site to run more than just ASP.NET. Why does a PHP app need a web.config? Can we run one site with more than one technology within it...and is that OK? ",
 		"link":"https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
-		"links":["Web","Azure","PHP","Node",".NET"]
+		"tags":["Web","Azure","PHP","Node",".NET"]
 		
 	}
 ]
