@@ -1,6 +1,6 @@
 # mspcontent.github.io
 
-This page is written in angular. All data is stored in data/dat.json. <br />
+This page is written in angular. All data is stored in data.json. <br />
 To add new content, edit this file and create a new json element, it is important that you follow this format and include tags for the item
 <br />
 
