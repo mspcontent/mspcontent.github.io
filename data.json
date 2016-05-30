@@ -55,5 +55,27 @@
 			"description": "A simple Windows 8.1 app that shows how to do Data Binding",
 			"link":"https://github.com/michstmatt/Windows-8.1-Data-Binding-App-Demo",
 			"tags":["UWP","Phone","MVVM","Databinding"]
+	},
+	{
+		"title":"Creating Your First Internet Connected Device",
+			"author":"Bret Stateham",
+				"description": "The 'Internet of Things' (IoT) is a hot topic these days. Basically it is about enabling the things we use in day-to-day life to communicate with us, and to be controlled by us in new and exciting ways. By making everyday things "smart" and connecting them to the Internet, we can gain significantly more value out of those things as well as do things with them that were just never possible before.",
+				"link":"https://github.com/mspcontent/Creating-Your-First-Internet-Connected-Device",
+				"tags":["IoT","Spark Core"]
+	},
+	{
+		"title":"MSP IoT Kit Overview",
+			"author":"Bret Stateham",
+				"description": "Here is a PowerPoint overview of the IoT kit provided to MSPs",
+				"link":"https://github.com/mspcontent/MSP-IoT-Kit-Overview",
+				"tags":["IoT","Spark Core"]
+	},
+	{
+		"title":"Spark Core Configuration",
+			"author":"Bret Stateham",
+				"description": "This walk through helps you configure your Spark Core on a Windows Machine. If you would prefer to configure your spark core using your iOS or Android device, you can follow the instructions on the Spark.IO website: http://docs.spark.io/start/ and http://docs.spark.io/connect/ The steps here are also described in various locations in the Spark documentation. You should always refer to the Spark documentation for the latest instructions. You can find them at http://docs.spark.io",
+				"link":"https://github.com/mspcontent/Spark-Core-Configuration",
+				"tags":["IoT","Spark Core"]
 	}
+	
 ]
