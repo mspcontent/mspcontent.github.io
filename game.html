@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html >
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<script src="methods.js">
+
+</script>
+
+
+
+
+
 <head>
-<title>MSP Content - Game</title>
+
+
+
+
+
+<title>MSP Content - Web</title>
 <link rel="stylesheet" href="style/main.css" type="text/css" >
-<link rel="shortcut icon" href="./images/flame.ico">
+<link rel="shortcut icon" href="./images/flame.ico" >
+
+
 </head>
-<body >
+
+<body>
 
 <div width="100%">
 <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;"/>
-<p style="font-size:50px; margin-bottom:10px; display:inline;">Game - Microsoft Student Partner Content</p>
+<p style="font-size:50px; margin-bottom:10px; display:inline;">Web - Microsoft Student Partner Content</p>
 </div>
 <ul style="list-style-type: none; display:inline;
     margin: 0;
@@ -20,40 +38,34 @@
 <li><a href="game.html" >GAME</a></li>
 <li><a href="iot.html" >IoT</a></li>
 </ul>
-<div style="float:left; margin-bottom:10px; width:100%">
 
 
-<div class="GitHubItem">
-	<a href="https://github.com/mspcontent/construct2-ghost-shooter">
-		<p class="GitHubTitle"> Intro to Construct 2 </p> 
-		<p class="GitHubAuthor">Steven Eduardo</p>
+
+<div style="float:left; margin-bottom:10px; width:100%" ng-app="myApp" ng-controller="myCtrl" >
+
+
+
+<div class="GitHubItem" ng-repeat="item in data| filterByTags: 'Game'" >
+	<div onclick="location.href = id" id={{item.link}}>
+		<p class="GitHubTitle">{{item.title}}</p> 
+		<p class="GitHubAuthor">{{item.author}}</p>
 		<p class="GitHubDescription">
-		Objective:
-
-		1.Understand the basics of using Construct 
-		2.Build a cool Ghost Shooter game using Construct 2
+		{{item.description}}
 		</p>
-	</a>
+		<div style="background:#2F5596; width:100%; height:25px;">
+		
+		<ul ng-repeat="tag in item.tags" >
+			<li class="GitHubTags">{{tag}}</li>
+		</ul>
+		</div>
+	</div>
 </div>
-
-
-
 </div>
-<p style="font-size:32px; margin-bottom:10px; ">Content Made by MSPs</p>
-
-
-<div style="float:left; margin-bottom:10px;">
-
-
 
 
 
 
 
 </div>
-
-
-
-
 </body>
 </html>
