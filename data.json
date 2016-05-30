@@ -76,6 +76,27 @@
 				"description": "This walk through helps you configure your Spark Core on a Windows Machine. If you would prefer to configure your spark core using your iOS or Android device, you can follow the instructions on the Spark.IO website: http://docs.spark.io/start/ and http://docs.spark.io/connect/ The steps here are also described in various locations in the Spark documentation. You should always refer to the Spark documentation for the latest instructions. You can find them at http://docs.spark.io",
 				"link":"https://github.com/mspcontent/Spark-Core-Configuration",
 				"tags":["IoT","Spark Core"]
+	},
+	{
+		"title":"Socket.io Real Time Chess",
+		"author": "David Washington",
+		"description":"Mission: Real-time multiplayer chessSo, let’s make a multiplayer chess game that where when you make a move it’s reflected on your opponent’s screen in real-time. Instantly. Checkmate.",
+		"link":"http://dwcares.com/2015/10/21/realchess/",
+		"tags":["Azure","Node","JavaScript","Socket.io"]
+	},
+	{
+		"title":"Awesome Unity Examples",
+		"author":"Jason Walters",
+		"description": "Collection of great Unity Examples",
+		"link":"https://github.com/jasonrwalters?tab=repositories",
+		"tags":["Game","Unity"]
+	},
+	{
+		"title":"Multi-language Azure Web Sites with PHP, node.js, .NET ",
+		"author":"Scott and Stefan",
+		"description":"Scott and Stefan dig into what's required of an Azure Web Site to run more than just ASP.NET. Why does a PHP app need a web.config? Can we run one site with more than one technology within it...and is that OK? ",
+		"link":"https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
+		"links":["Web","Azure","PHP","Node",".NET"]
+		
 	}
-	
 ]
