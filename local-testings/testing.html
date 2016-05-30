@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html >
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-
+<script src="methods.js"/>
 
 
 
@@ -10,18 +10,8 @@
 
 <head>
 <script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
-	$http({
-		method:"GET",
-		url: "data.json"
-		}).then(function mySuccess(response) {
-			$scope.data=response.data;
-		}, function myError(response){
-			console.log("error");
-		});
-		
-	}]);
+
+
 </script>
 
 
@@ -56,7 +46,7 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 
 
 
-<div class="GitHubItem" ng-repeat="item in data| Web in item.tags" >
+<div class="GitHubItem" ng-repeat="item in data| filterByTags:'Web'" >
 	<div onclick="location.href = id" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
 		<p class="GitHubAuthor">{{item.author}}</p>
