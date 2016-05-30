@@ -49,7 +49,7 @@
 	<div onclick="location.href = id" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
 		<p class="GitHubAuthor">{{item.author}}</p>
-		<pre class="GitHubDescription" ng-bind-html="item.description"></pre>
+		<pre class="GitHubDescription" >{{item.description}}</pre>
 		<div style="background:#2F5596; width:100%; height:25px;">
 		
 		<ul ng-repeat="tag in item.tags" >
