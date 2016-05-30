@@ -50,7 +50,7 @@ app.filter('filterByTags', function() {
 
 
 
-<title>MSP Content - Web</title>
+<title>MSP Content - {{tag}}</title>
 <link rel="stylesheet" href="style/main.css" type="text/css" >
 <link rel="shortcut icon" href="./images/flame.ico" >
 
@@ -66,11 +66,11 @@ app.filter('filterByTags', function() {
 <ul style="list-style-type: none; display:inline;
     margin: 0;
     padding: 0;" >
-<li><a href="index.html" >HOME</a></li>
-<li><a ng-click="tag='Web'" >WEB</a></li>
-<li><a ng-click="tag='UWP'" >UWP</a></li>
-<li><a ng-click="tag='Game'" >GAME</a></li>
-<li><a ng-click="tag='Iot'" >IoT</a></li>
+<li><a href="index.html" >HOME</li>
+<li ng-click="tag='Web'" >WEB</li>
+<li ng-click="tag='UWP'" >UWP</li>
+<li ng-click="tag='Game'" >GAME</li>
+<li ng-click="tag='Iot'" >IoT</li>
 </ul>
 
 
