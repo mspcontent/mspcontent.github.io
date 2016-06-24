@@ -87,7 +87,7 @@ Type tags:
 <div class="GitHubItem" ng-repeat="item in data| filterByTags:tag " >
 	<div onclick="location.href = id" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
-		<p class="GitHubAuthor">{{item.author}}     Difficulty:{{difficulty}}</p>
+		<p class="GitHubAuthor">{{item.author}}&#9;Difficulty:{{item.difficulty}}</p>
 		<p class="GitHubDescription" >{{item.description}}</p>
 		<div style="background:#2F5596; width:100%; float:bottom; min-height:25px; height:auto; bottom:0px; position:relative; overflow:clip; ">
 		<ul ng-repeat="tag in item.tags" >
