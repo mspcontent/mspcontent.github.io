@@ -76,9 +76,10 @@ app.filter('filterByTags', function() {
 <br><br>
 <div style="width:100%; float:left;">
 Type tags:
-<input ng-model="search"></input><button ng-click="tag=search" >search</button>
+<input ng-model="search"/><button ng-click="tag=search" >search</button>
+    <span>Difficulty: </span>
 <select ng-model="difficulty">
-    <option ng-repeat="n in [] | range:4">{{n+1}}</option>
+    <option ng-repeat="n in [1,2,3,4,5]">{{n+1}}</option>
 </select>
 </div>
 
