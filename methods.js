@@ -18,7 +18,7 @@ app.filter('filterByTags', function() {
 		
 		angular.forEach(items,function(item)
 		{
-			console.log(item);
+			
 			var contains=false;
 			angular.forEach(item.tags, function(tag) {
 				if(tag.toLowerCase()==key.toLowerCase())
@@ -27,6 +27,7 @@ app.filter('filterByTags', function() {
 			if(contains==true)
 				filtered.push(item);
 		});
+		console.log(filtered);
         return filtered;
         
     };
