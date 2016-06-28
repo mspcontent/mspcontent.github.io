@@ -48,7 +48,7 @@
 
 
 
-<title>MSP Content - Web</title>
+<title>MSP Content</title>
 <link rel="stylesheet" href="style/main.css" type="text/css" >
 <link rel="shortcut icon" href="./images/flame.ico" >
 
@@ -82,9 +82,32 @@ Type tags:
 </div>
 
 
-<div style="float:left; margin-bottom:10px; width:100%"  >
-
-
+    <div style="float:left; margin-bottom:10px; width:100%">
+        <div class="GitHubItem">
+            <p class="GitHubTitle"> <a href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></p>
+            <p class="GitHubAuthor">Bret Stateham</p>
+            <p class="GitHubDescription">
+                <b>What is a Walkthrough</b>
+                <br><br>
+                Its right in its name! A Walkthrough is something you use to walk someone through something interesting. Each of these repositories contains a guide that will give you what you need to do to walk other students through something fun and cool.
+                <br><br>
+                While you're at it you'll learn a thing or two that you can use to hack or even land you a sweet gig in the tech industry!
+                <br><br>
+                <b>The README.md files</b>
+                <br><br>
+                If you're reading this, you're most likely looking at this file as rendered by Github. This file is in a format called markdown an easy to write format which makes it easy to write simple HTML such as links right into our documents without the need of additional software like Adobe Reader or Word. We can track changes in these files easily and better collaborate to ensure they are top quality.
+                <br><br>
+                Each README.md represents a walk-through you could use, right out of the box to drive an event at your school. These walk-throughs contain screenshots, resources, links, code samples and detailed instructions to help you learn and give a fun and insightful session. They also contain links to resources such as Microsoft Virtual Academy to help you gain deeper knowledge about the subject.
+                <br><br>
+                <b>Forking the repositories</b>
+                <br><br>
+                Every repository within mspcontent is in itself a single walk through. To get started first you need to fork the repository. Ensure you install Github for Mac or Github for Windows on your machine.
+                <br><br>
+                From the mspcontent home page, pick a repository (which contains a single walk-through):
+            </p>
+        </div>
+    </div>
+<hr/>
 
 <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty" >
 	<div onclick="location.href = id" id={{item.link}}>
