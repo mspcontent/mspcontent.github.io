@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html >
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-
-<script >
-var app = angular.module('myApp', []);
-app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
-	$scope.tag="ALL";
-	$http({
-		method:"GET",
-		url: "data.json"
-		}).then(function mySuccess(response) {
-			$scope.data=response.data;
-		}, function myError(response){
-			console.log("error");
-		});
-		
-	}]);
-
-app.filter('filterByTags', function() {
-    return function(items, key) {
-		var filtered=[];
-		
-		angular.forEach(items,function(item)
-		{
-			console.log(item);
-			var contains=false;
-			angular.forEach(item.tags, function(tag) {
-				if(tag.toLowerCase().indexOf(key.toLowerCase())>-1||key.toLowerCase()=="all")
-					contains=true;
-			});
-			if(contains==true)
-				filtered.push(item);
-		});
-        return filtered;
-        
-    };
-});
-
-
-</script>
-
-
-
 
 
 <head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <!--<script >
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
+        $scope.tag="ALL";
+        $http({
+            method:"GET",
+            url: "data.json"
+            }).then(function mySuccess(response) {
+                $scope.data=response.data;
+            }, function myError(response){
+                console.log("error");
+            });
+
+        }]);
+
+    app.filter('filterByTags', function() {
+        return function(items, key) {
+            var filtered=[];
+
+            angular.forEach(items,function(item)
+            {
+                console.log(item);
+                var contains=false;
+                angular.forEach(item.tags, function(tag) {
+                    if(tag.toLowerCase().indexOf(key.toLowerCase())>-1||key.toLowerCase()=="all")
+                        contains=true;
+                });
+                if(contains==true)
+                    filtered.push(item);
+            });
+            return filtered;
+
+        };
+    });
+
+
+    </script>-->
+
+    <script type="text/javascript" src="custom.js" ></script>
 
 
 
@@ -78,8 +78,8 @@ app.filter('filterByTags', function() {
 Type tags:
 <input ng-model="search"/><button ng-click="tag=search" >search</button>
     <span>Difficulty: </span>
-<select ng-model="difficulty">
-    <option ng-repeat="n in [1,2,3,4,5]">{{n+1}}</option>
+<select ng-model="difficulty" style="width:100px;">
+    <option ng-repeat="n in difficulty">{{n}}</option>
 </select>
 </div>
 
