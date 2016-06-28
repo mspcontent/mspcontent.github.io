@@ -2,9 +2,7 @@ body{
 	background-color:#E6E6E6;
 	font-family: "Segoe UI";
     font-weight: 300;
-	margin: auto;
-    width: 95%;
-	
+
 }
 
 a
@@ -31,6 +29,9 @@ li {
 	font-size:50px;
      margin-bottom:10px; 
      display:inline;
+}
+span{
+    color:white;
 }
 .GitHubItem
 {
