@@ -10,7 +10,13 @@ body{
 }
 a
 {
-	color: black;
+	color: white;
+	display:block;
+	text-decoration: none;
+}
+a :after
+{
+    color: white;
 	display:block;
 	text-decoration: none;
 }
@@ -20,9 +26,10 @@ li {
 	margin-bottom:10px;
 	float:left;
 }
-p.PageTitle
+.PageTitle p
 {
-	
+    color:white;
+	font-size:50px; margin-bottom:10px; display:inline;
 }
 .GitHubItem
 {
