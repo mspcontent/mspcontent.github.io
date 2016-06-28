@@ -4,7 +4,8 @@ app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
 		method:"GET",
 		url: "data.json"
 		}).then(function mySuccess(response) {
-			$scope.data=response.data;
+		    $scope.data = response.data;
+		    console.log($scope.data.toString());
 		}, function myError(response){
 			console.log("error");
 		});
