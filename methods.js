@@ -1,14 +1,14 @@
 var app = angular.module('myApp', []);
-app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
-	$http({
-		method:"GET",
-		url: "data.json"
-		}).then(function mySuccess(response) {
-		    $scope.data = response.data;
-		    console.log($scope.data.toString());
-		}, function myError(response){
-			console.log("error");
-		});
+app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
+    $scope.tag = "ALL";
+    $http({
+        method: "GET",
+        url: "data.json"
+    }).then(function mySuccess(response) {
+        $scope.data = response.data;
+    }, function myError(response) {
+        console.log("error");
+    });
 	$scope.difficulty = ['very easy', 'easy', 'medium', 'hard', 'very hard'];
 	}]);
 
