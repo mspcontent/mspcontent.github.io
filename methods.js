@@ -43,6 +43,5 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
     }, function myError(response) {
         console.log("error");
     });
-	$scope.difficulty = ['very easy', 'easy', 'medium', 'hard', 'very hard'];
 	}]);
 
