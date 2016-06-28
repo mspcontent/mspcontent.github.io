@@ -34,6 +34,7 @@ app.filter('filterByDifficulty', function () {
 
 app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.tag = "ALL";
+    $scope.difficulty = 5;
     $http({
         method: "GET",
         url: "./data.json"
