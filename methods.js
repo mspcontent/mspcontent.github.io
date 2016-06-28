@@ -7,7 +7,7 @@ app.filter('filterByTags', function () {
 
             var contains = false;
             angular.forEach(item.tags, function (tag) {
-                if (tag.toLowerCase() == key.toLowerCase())
+                if (tag.toLowerCase().indexOf(key.toLowerCase()) > -1 || key.toLowerCase() == "all")
                     contains = true;
             });
             if (contains == true)
