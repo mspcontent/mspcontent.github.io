@@ -23,7 +23,7 @@ app.filter('filterByDifficulty', function () {
         var filtered = [];
 
         angular.forEach(items, function (item) {
-            if (item.difficulty == key)
+            if (item.difficulty <= key)
                 filtered.push(item);
         });
         return filtered;
