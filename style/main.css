@@ -45,12 +45,12 @@ p.PageTitle
 }
 .GitHubTitle
 {
-	font-size:25px;
+	font-size:22px;
 	margin-top:5px;
 	width:100%;
 	color: black;
 	margin-left:5px;
-	height:50px;
+	height:40px;
 }
 .GitHubDescription
 {
@@ -70,11 +70,16 @@ p.PageTitle
 	font-size:16px;
 	width:100%;
 	margin-left:5px;
-	height:25px;
+	height:20px;
 	
 }
 .GitHubTags
 {
 	color:white;
 	float:bottom;
+}
+.GitHubDifficulty
+{
+	height:10px;
+	font-size:12px;
 }
