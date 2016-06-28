@@ -13,7 +13,7 @@ app.filter('filterByTags', function () {
             if (contains == true)
                 filtered.push(item);
         });
-
+        console.log(filtered);
         return filtered;
 
     };
