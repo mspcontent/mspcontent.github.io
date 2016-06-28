@@ -3,7 +3,7 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.tag = "ALL";
     $http({
         method: "GET",
-        url: "data.json"
+        url: "./data.json"
     }).then(function mySuccess(response) {
         $scope.data = response.data;
     }, function myError(response) {
