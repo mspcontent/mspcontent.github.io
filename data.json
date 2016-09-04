@@ -211,6 +211,49 @@
       "C#"
     ]
   },
+   {
+    "title": "Xamarin Smart Coffee",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/SmartCoffee",
+    "description": "Brew a perfect cup of coffee from iOS and Android apps using Xamarin, Azure IoT Hub, and Microsoft Cognitive Services.",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "IoT",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "Xamarin Forms Samples",
+    "author": "Xamarin",
+    "difficulty": 3,
+	"link":"https://github.com/xamarin/xamarin-forms-samples",
+    "description": "A collection of Xamarin Forms samples.",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "Xamarin.Forms",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "HTML for Beginners",
+    "author": "Microsoft Virtual Academy",
+    "difficulty": 1,
+	"link":"https://mva.microsoft.com/en-us/training-courses/html5-css3-fundamentals-development-for-absolute-beginners-14207?l=Y4COscFfB_7500115888",
+    "description": "Learn to make a webpage, this course is designed for beginners.",
+    "tags": [
+      "Web",
+      "HTML"
+    ]
+  },
   {
     "title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
     "author": "Jennifer Marsman",
