@@ -180,6 +180,37 @@
       "C#"
     ]
   },
+   {
+    "title": "Xamarin Monkey Tweet",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/monkeytweet",
+    "description": "A minimalistic Xamarin twitter app",
+    "tags": [
+      "Xamarin",
+      "Phone",
+      "UWP",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+  {
+    "title": "Xamarin Moments",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/Moments",
+    "description": "A SnapChat Clone made with Xamarin.Forms and Microsoft Azure",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "UWP",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
   {
     "title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
     "author": "Jennifer Marsman",
