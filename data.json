@@ -179,5 +179,27 @@
       "Andriod",
       "C#"
     ]
+  },
+  {
+    "title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
+    "author": "Jennifer Marsman",
+    "difficulty": 3,
+	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/19/using-azure-machine-learning-to-predict-who-will-survive-the-titanic/",
+    "description": "One of my “Introduction to Azure Machine Learning” talks demonstrates how to use Azure Machine Learning to make predictions.  The example I use is predicting whether a passenger on the Titanic will survive, given information like their age, gender, class of ticket, ticket fare, etc.  (You can download the Titanic dataset from Kaggle.)",
+    "tags": [
+      "ML","Azure"
+      
+    ]
+  },
+  {
+    "title": "How To Optimize Your March Madness Bracket with Azure Machine Learning",
+    "author": "Jennifer Marsman",
+    "difficulty": 3,
+	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/29/how-to-optimize-your-march-madness-bracket-with-azure-machine-learning/",
+    "description": "In the latest episode of DevRadio, I interviewed Damon Hachmeister from the Azure Machine Learning team.  Damon runs a competition for Microsoft employees to see who can best predict the results of the NCAA March Madness Tournament using Azure Machine Learning.  Last year, he won second place himself, and he walks us through his algorithm",
+    "tags": [
+      "ML","Azure"
+      
+    ]
   }
 ]
