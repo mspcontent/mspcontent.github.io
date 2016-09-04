@@ -1,10 +1,25 @@
 body{
 	background-color:#E6E6E6;
-	font-family: "Segoe UI";
+	font-family: "Helvetica";
     font-weight: 300;
 
 }
-
+button
+{
+	background-color:#e7e7e7;
+	color:black;
+    border: none;
+ padding:2px;
+ margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+.header
+{
+	height:auto; width:100%; margin:10px; padding:10px; background-color:#2F5596;
+}
 a
 {
 	color: white;

@@ -6,43 +6,6 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
-    <!--<script >
-    var app = angular.module('myApp', []);
-    app.controller('myCtrl',['$scope', '$http', function($scope, $http) {
-        $scope.tag="ALL";
-        $http({
-            method:"GET",
-            url: "data.json"
-            }).then(function mySuccess(response) {
-                $scope.data=response.data;
-            }, function myError(response){
-                console.log("error");
-            });
-
-        }]);
-
-    app.filter('filterByTags', function() {
-        return function(items, key) {
-            var filtered=[];
-
-            angular.forEach(items,function(item)
-            {
-                console.log(item);
-                var contains=false;
-                angular.forEach(item.tags, function(tag) {
-                    if(tag.toLowerCase().indexOf(key.toLowerCase())>-1||key.toLowerCase()=="all")
-                        contains=true;
-                });
-                if(contains==true)
-                    filtered.push(item);
-            });
-            return filtered;
-
-        };
-    });
-
-
-    </script>-->
 
    
 
@@ -56,8 +19,8 @@
 </head>
 
 <body ng-app="myApp" ng-controller="myCtrl">
-    <div style="height:100%; width:auto; margin:10px; padding:10px;   background-image:url('./images/mainDarkened.png');">
-        <div width="100%">
+    <div class="header">
+        <div style="width:100%">
             <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;" />
             <p class="PageTitle">{{tag}} - Microsoft Student Partner Content</p>
         </div>
