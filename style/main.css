@@ -25,12 +25,22 @@ a
 	color: white;
 	display:block;
 	text-decoration: none;
+	opacity:0.8;
+}
+a :hover
+{
+    color: white;
+	cursor:pointer
+	opacity:1;
+	display:block;
+	text-decoration: none;
 }
 a :after
 {
     color: white;
 	display:block;
 	text-decoration: none;
+	opacity:0.8;
 }
 li {
     display: inline;
