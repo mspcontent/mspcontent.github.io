@@ -1,0 +1,294 @@
+[
+  {
+    "title": "Azure Mobile Services Lab",
+    "author": "David Giard",
+    "difficulty": 3,
+    "description": "Storing data in the cloud allows your application to remember information between launches and to share data among other users, applications, and devices. &nbsp;&nbsp; Exposing that data via a REST interface makes this data accessible to applications running on a variety of platforms and written in a variety of languages. REST is an architectural pattern for allowing clients to read and update server data through a consistent API. The current implementations of REST uses an HTTP endpoint (a URL) to expose functionality and the features of HTTP (verbs, response codes, and header data) to exchange data between the client and the server. &nbsp;&nbsp; Azure Mobile Services (ZuMo) makes it easier to expose your data as a REST endpoint by handling the plumbing code for you so that you can focus on your data model and your business logic. &nbsp;&nbsp; With just a few clicks, you can create a service and map it to a database table. ZuMo will create an HTTP endpoint; map HTTP verbs to Create, Read, Update, and Delete methods; create those methods for you; and handle the transformation from JSON data into objects that map to rows in your database table. This isn't impossible code for you to write, but it can be a lot of code. And wouldn't your time be better spent writing the code that makes your application unique? &nbsp;&nbsp; Azure Mobile Services will even generate a client application to call your new REST service and pass data to and from it. You can use this application as a starting point or you can copy and paste code from this app into your own client app. ZuMo is capable of generating a sample client application for Windows 8, Windows Phone, HTML and JavaScript, Xamarin, PhoneGap, Android, or iOS. &nbsp;&nbsp; Azure Mobile Services is a true cross-platform solution that is simple to implement because it handles much of the plumbing code for you.",
+    "link": "https://github.com/mspcontent/Azure-Mobile-Services-Labs",
+    "tags": [
+      "Azure",
+      "Web"
+    ]
+  },
+  {
+    "title": "Django From Azure",
+    "author": "Tim Reilly",
+    "difficulty": 1,
+    "description": "This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
+    "link": "https://github.com/mspcontent/Django-From-Azure",
+    "tags": [
+      "Azure",
+      "Web",
+      "Django"
+    ]
+  },
+  {
+    "title": "Jade Templating",
+    "author": "Steven Eduardo",
+    "difficulty": 2,
+    "description": "In this lab we will use Express to create Node recipes a full fledged website which can scale to mobile browsers as well as to the desktop. By the end of this lab you will know 1. How to write html templates with jade2. How to render a view with a jade template and a model using a route",
+    "link": "https://github.com/mspcontent/jade-templating",
+    "tags": [
+      "Web",
+      "Jade"
+    ]
+  },
+  {
+    "title": "Spark Core RGB Controller",
+    "author": "MSP - Matt Pasco",
+    "difficulty": 3,
+    "description": "Windows App For Controlling a Spark Core<br>This is a sample windows 8.1 universal app that controls your sparkcore Check out Bret Stateham's tutorial on how to setup your spark core here: https://github.com/mspcontent/Spark-Core-Configuration",
+    "link": "https://github.com/michstmatt/Spark-RGB-Controller",
+    "tags": [
+      "UWP",
+      "Phone",
+      "IoT",
+      "Spark Core"
+    ]
+  },
+  {
+    "title": "Lucky Lotto",
+    "author": "MSP - Mustafa Taleb",
+    "difficulty": 2,
+    "description": "This is a sample project made this year demonstrating the MVVM design pattern for beginners and some asynchronous programming. The app is a lottery number generator. The app accepts user input to generate lucky lottery numbers.",
+    "link": "https://github.com/janabimustafa/LuckyLotto",
+    "tags": [
+      "UWP",
+      "Phone",
+      "MVVM",
+      "Async"
+    ]
+  },
+  {
+    "title": "Xaml Data Binding",
+    "difficulty": 2,
+    "author": "MSP - Matt Pasco",
+    "description": "A simple Windows 8.1 app that shows how to do Data Binding",
+    "link": "https://github.com/michstmatt/Windows-8.1-Data-Binding-App-Demo",
+    "tags": [
+      "UWP",
+      "Phone",
+      "MVVM",
+      "Databinding"
+    ]
+  },
+  {
+    "title": "Creating Your First Internet Connected Device",
+    "author": "Bret Stateham",
+    "difficulty": 3,
+    "description": "The 'Internet of Things' (IoT) is a hot topic these days. Basically it is about enabling the things we use in day-to-day life to communicate with us, and to be controlled by us in new and exciting ways. By making everyday things 'smart' and connecting them to the Internet, we can gain significantly more value out of those things as well as do things with them that were just never possible before.",
+    "link": "https://github.com/mspcontent/Creating-Your-First-Internet-Connected-Device",
+    "tags": [
+      "IoT",
+      "Spark Core"
+    ]
+  },
+  {
+    "title": "MSP IoT Kit Overview",
+    "author": "Bret Stateham",
+    "difficulty": 2,
+    "description": "Here is a PowerPoint overview of the IoT kit provided to MSPs",
+    "link": "https://github.com/mspcontent/MSP-IoT-Kit-Overview",
+    "tags": [
+      "IoT",
+      "Spark Core"
+    ]
+  },
+  {
+    "title": "Spark Core Configuration",
+    "author": "Bret Stateham",
+    "difficulty": 2,
+    "description": "This walk through helps you configure your Spark Core on a Windows Machine. If you would prefer to configure your spark core using your iOS or Android device, you can follow the instructions on the Spark.IO website: http://docs.spark.io/start/ and http://docs.spark.io/connect/ The steps here are also described in various locations in the Spark documentation. You should always refer to the Spark documentation for the latest instructions. You can find them at http://docs.spark.io",
+    "link": "https://github.com/mspcontent/Spark-Core-Configuration",
+    "tags": [
+      "IoT",
+      "Spark Core"
+    ]
+  },
+  {
+    "title": "Socket.io Real Time Chess",
+    "author": "David Washington",
+    "difficulty": 4,
+    "description": "Mission: Real-time multiplayer chessSo, let’s make a multiplayer chess game that where when you make a move it’s reflected on your opponent’s screen in real-time. Instantly. Checkmate.",
+    "link": "http://dwcares.com/2015/10/21/realchess/",
+    "tags": [
+      "Web",
+      "Azure",
+      "Node",
+      "JavaScript",
+      "Socket.io"
+    ]
+  },
+  {
+    "title": "Awesome Unity Examples",
+    "author": "Jason Walters",
+    "difficulty": 3,
+    "description": "Collection of great Unity Examples",
+    "link": "https://github.com/jasonrwalters?tab=repositories",
+    "tags": [
+      "Game",
+      "Unity"
+    ]
+  },
+  {
+    "title": "Multi-language Azure Web Sites with PHP, node.js, .NET ",
+    "author": "Scott and Stefan",
+    "difficulty": 4,
+    "description": "Scott and Stefan dig into what's required of an Azure Web Site to run more than just ASP.NET. Why does a PHP app need a web.config? Can we run one site with more than one technology within it...and is that OK? ",
+    "link": "https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
+    "tags": [
+      "Web",
+      "Azure",
+      "PHP",
+      "Node",
+      ".NET"
+    ]
+  },
+  {
+    "title": "Running Remote Desktop on a Windows Azure Linux VM",
+    "author": "Planky",
+    "difficulty": 3,
+    "description": "There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
+    "tags": [
+      "Web",
+      "Azure",
+      "Linux"
+    ]
+  },
+  {
+    "title": "UWP Development",
+    "author": "Windows Dev",
+    "difficulty": 3,
+    "description": "Get started with UWP developement",
+    "tags": [
+      "UWP",
+      "C#",
+      "Phone"
+    ]
+  },
+  {
+    "title": "Xamarin.Forms Workshop",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+    "description": "Everything you need to run a workshop on Xamarin's native mobile cross platform apps",
+    "tags": [
+      "Xamarin",
+      "Phone",
+      "UWP",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "Xamarin Monkey Tweet",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/monkeytweet",
+    "description": "A minimalistic Xamarin twitter app",
+    "tags": [
+      "Xamarin",
+      "Phone",
+      "UWP",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+  {
+    "title": "Xamarin Moments",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/Moments",
+    "description": "A SnapChat Clone made with Xamarin.Forms and Microsoft Azure",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "UWP",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "Xamarin Smart Coffee",
+    "author": "Pierce Boggan",
+    "difficulty": 3,
+	"link":"https://github.com/pierceboggan/SmartCoffee",
+    "description": "Brew a perfect cup of coffee from iOS and Android apps using Xamarin, Azure IoT Hub, and Microsoft Cognitive Services.",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "IoT",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "Xamarin Forms Samples",
+    "author": "Xamarin",
+    "difficulty": 3,
+	"link":"https://github.com/xamarin/xamarin-forms-samples",
+    "description": "A collection of Xamarin Forms samples.",
+    "tags": [
+      "Xamarin",
+      "Phone",
+	  "Azure",
+      "Xamarin.Forms",
+      "iOS",
+      "Andriod",
+      "C#"
+    ]
+  },
+   {
+    "title": "Course - HTML developement fundamentals",
+    "author": "Microsoft Virtual Academy",
+    "difficulty": 1,
+	"link":"https://mva.microsoft.com/en-us/training-courses/html5-css3-fundamentals-development-for-absolute-beginners-14207?l=Y4COscFfB_7500115888",
+    "description": "Learn to make a webpage, this course is designed for beginners.",
+    "tags": [
+      "Web",
+      "HTML",
+	  "CSS"
+    ]
+  },
+   {
+    "title": "HTML and CSS for Beginners",
+    "author": "Christopher Harrison",
+    "difficulty": 1,
+	"link":"  https://github.com/MicrosoftLearning/html-css-beginners",
+    "description": "Repository for HTML & CSS for Absolute Beginners",
+    "tags": [
+      "Web",
+      "HTML",
+	  "CSS"
+    ]
+  },
+
+
+  {
+    "title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
+    "author": "Jennifer Marsman",
+    "difficulty": 3,
+	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/19/using-azure-machine-learning-to-predict-who-will-survive-the-titanic/",
+    "description": "One of my “Introduction to Azure Machine Learning” talks demonstrates how to use Azure Machine Learning to make predictions.  The example I use is predicting whether a passenger on the Titanic will survive, given information like their age, gender, class of ticket, ticket fare, etc.  (You can download the Titanic dataset from Kaggle.)",
+    "tags": [
+      "Machine Learning","Azure"
+      
+    ]
+  },
+  {
+    "title": "How To Optimize Your March Madness Bracket with Azure Machine Learning",
+    "author": "Jennifer Marsman",
+    "difficulty": 3,
+	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/29/how-to-optimize-your-march-madness-bracket-with-azure-machine-learning/",
+    "description": "In the latest episode of DevRadio, I interviewed Damon Hachmeister from the Azure Machine Learning team.  Damon runs a competition for Microsoft employees to see who can best predict the results of the NCAA March Madness Tournament using Azure Machine Learning.  Last year, he won second place himself, and he walks us through his algorithm",
+    "tags": [
+      "Machine Learning","Azure"
+      
+    ]
+  }
+]
