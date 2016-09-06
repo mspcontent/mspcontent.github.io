@@ -50,7 +50,7 @@
         <br />
     </div>
 <hr/>
-
+    <center>
 <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
 	<div onclick="window.open(id)" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
@@ -67,7 +67,7 @@
 	</div>
     
 </div>
-
+    </center>
 
 
 
