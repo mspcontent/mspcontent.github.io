@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html >
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -18,24 +17,25 @@
 
 </head>
 
-<body ng-app="myApp" ng-controller="myCtrl">
+<body ng-app="myApp" ng-controller="myCtrl" ng-init="tag='All'">
     <div class="header">
         <div style="width:100%">
             <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;" />
             <p class="PageTitle">{{tag}} - Microsoft Student Partner Content</p>
         </div>
         <br />
-        <ul style="list-style-type: none; display:inline; margin: 0;padding: 0; width:100%; height:auto;">
-            <li><a ng-click="tag='All';">ALL</a></li>
-            <li><a ng-click="tag='Web';">WEB</a></li>
-            <li><a ng-click="tag='Xamarin';">Xamarin</a></li>
-            <li><a ng-click="tag='Game';">GAME</a></li>
-            <li><a ng-click="tag='Iot';">IoT</a></li>
-            <li><a ng-click="tag='Azure';">Azure</a></li>
-            <li><a ng-click="tag='ML';">Machine Learning</a></li>
-            <li><a ng-click="tag='UWP';">UWP</a></li>
+        <ul class="HeaderTabs">
+            <li  ng-class="{active: tag == 'All'}" >   <a ng-click="tag='All';">ALL</a></li>
             <li><a href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></li>
-            <li><a href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
+            <li ng-class="{active: tag == 'Web'}"    > <a ng-click="tag='Web';">WEB</a></li>
+            <li ng-class="{active: tag == 'Xamarin'}"> <a ng-click="tag='Xamarin';">Xamarin</a></li>
+            <li ng-class="{active: tag == 'Game'}"   > <a ng-click="tag='Game';">GAME</a></li>
+            <li ng-class="{active: tag == 'IoT'}"    > <a ng-click="tag='IoT';">IoT</a></li>
+            <li ng-class="{active: tag == 'Azure'}"  > <a ng-click="tag='Azure';">Azure</a></li>
+            <li ng-class="{active: tag == 'ML'}"     > <a ng-click="tag='ML';">Machine Learning</a></li>
+            <li ng-class="{active: tag == 'UWP'}"    > <a ng-click="tag='UWP';">UWP</a></li>
+          
+            <li><a  href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
         </ul>
 
         <br><br>
@@ -52,7 +52,7 @@
 <hr/>
 
 <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
-	<div onclick="location.href = id" id={{item.link}}>
+	<div onclick="window.open(id)" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
 		<p class="GitHubAuthor">{{item.author}}</p>
         <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>

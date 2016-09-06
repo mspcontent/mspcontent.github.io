@@ -1,6 +1,6 @@
 body{
 	background-color:#E6E6E6;
-	font-family: "Century Gothic";
+	font-family: "Segoe UI";
     font-weight: 300;
 
 }
@@ -18,30 +18,45 @@ button
 }
 .header
 {
-	height:auto; width:100%; margin:10px; padding:10px; background-color:#2F5596;
+	width:98%; margin:0 auto; padding:10px; 
+	background-color:#2F5596;
+	overflow:hidden;
+	/*background-image: url('../images/mainDarkened.png');*/
 }
-a
+.HeaderTabs
+{
+	list-style-type: none; display:inline; margin: 0;padding: 0; width:100%; height:auto;
+}
+
+.HeaderTabs li a
+{
+	color: white;
+	display:block;
+	text-decoration: none;
+	font-weight: bold;
+	opacity:0.8;
+}
+.HeaderTabs li.active a{
+	opacity:1;
+	border-bottom:4px solid #fff;
+}
+.HeaderTabs li a:hover:not(.active){
+	cursor:pointer;
+	opacity:1;
+	border-bottom:4px solid #fff;
+	
+	
+}
+
+.HeaderTabs li a:after
 {
 	color: white;
 	display:block;
 	text-decoration: none;
 	opacity:0.8;
 }
-a :hover
-{
-    color: white;
-	cursor:pointer
-	opacity:1;
-	display:block;
-	text-decoration: none;
-}
-a :after
-{
-    color: white;
-	display:block;
-	text-decoration: none;
-	opacity:0.8;
-}
+
+
 li {
     display: inline;
 	margin-right:30px;
