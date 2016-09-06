@@ -97,7 +97,7 @@ span{
 	font-size:22px;
 	margin-top:5px;
 	width:100%;
-	color: #2F5596;
+	color: black;
 	margin-left:5px;
 	height:40px;
 }
@@ -114,8 +114,8 @@ span{
 }
 .GitHubAuthor
 {
-	color: black;
-	font-weight: 600;
+	color: #2F5596;
+	font-weight: 500;
 	font-size:16px;
 	width:100%;
 	margin-left:5px;
