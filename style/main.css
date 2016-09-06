@@ -1,12 +1,13 @@
 @font-face {
-  font-family: "Segoe UI";
-  src: url('../fonts/segoeui.tff')
-  ) format("truetype");
+  font-family: "MSP";
+
+  src: url('../fonts/segoeui.ttf')
+  ;
 }
 
 body{
 	background-color:#E6E6E6;
-	font-family: "Segoe UI";
+	font-family: "MSP";
     font-weight: 300;
 
 }
