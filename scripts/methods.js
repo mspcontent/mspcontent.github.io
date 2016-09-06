@@ -37,7 +37,7 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.difficulty = 5;
     $http({
         method: "GET",
-        url: "./Data/data.json"
+        url: "../data/data.json"
     }).then(function mySuccess(response) {
         $scope.data = response.data;
     }, function myError(response) {
