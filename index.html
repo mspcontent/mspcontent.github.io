@@ -54,7 +54,7 @@
 <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
 	<div onclick="window.open(id)" id={{item.link}}>
 		<p class="GitHubTitle">{{item.title}}</p> 
-        <hr/>
+       
 		<p class="GitHubAuthor">{{item.author}}</p>
         <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
 		
@@ -65,7 +65,7 @@
 		</ul>
 		</div>
 	</div>
-    <br />
+    
 </div>
 
 
