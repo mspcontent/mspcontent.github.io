@@ -65,7 +65,7 @@ li {
 }
 .PageTitle
 {
-    color:#2F5596;
+    color:white;
 	font-size:50px;
      margin-bottom:10px; 
      display:inline;
@@ -97,7 +97,7 @@ span{
 	font-size:22px;
 	margin-top:5px;
 	width:100%;
-	color: black;
+	color: #2F5596;
 	margin-left:5px;
 	height:40px;
 }
