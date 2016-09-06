@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url('../fonts/segoeui.tff')
+  ) format("truetype");
+}
+
 body{
 	background-color:#E6E6E6;
 	font-family: "Segoe UI";
