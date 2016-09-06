@@ -75,8 +75,8 @@ span{
 }
 .GitHubItem
 {
-	display: block;
-	float:left;
+	display: inline-block;
+	/*float:left;*/
 	background:white;
 	margin:10px;
 	/*padding:5px;*/
