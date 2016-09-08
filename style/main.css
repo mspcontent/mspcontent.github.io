@@ -141,3 +141,18 @@ span{
 	font-size:12px;
 	margin-left:5px;
 }
+.aboutFooter
+{
+	width:100%;
+	margin:0 auto;
+}
+.aboutFooter img
+{
+	height:100px;
+	width:auto;
+	margin:0 auto;
+}
+.aboutFooter span
+{
+	color:black;
+}

@@ -2,7 +2,7 @@ var app = angular.module('myApp', []);
 app.filter('filterByTags', function () {
     return function (items, key) {
         var filtered = [];
-        console.log(items);
+      
         angular.forEach(items, function (item) {
 
             var contains = false;
@@ -13,7 +13,7 @@ app.filter('filterByTags', function () {
             if (contains == true)
                 filtered.push(item);
         });
-        console.log(filtered);
+       
         return filtered;
 
     };

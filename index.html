@@ -6,50 +6,51 @@
     <script src="scripts/angular.min.js"></script>
 
 
-   
 
 
 
-<title>MSP Content</title>
-<link rel="stylesheet" href="style/main.css" type="text/css" >
-<link rel="shortcut icon" href="./images/flame.ico" >
 
-
+    <title>MSP Content</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    <link rel="shortcut icon" href="./images/flame.ico">
 </head>
 
 <body ng-app="myApp" ng-controller="myCtrl" ng-init="tag='All'">
     <div class="header">
-        <div style="width:100%">
-            <img src="./images/flame.jpg" style="height:50px; width:50px; display:inline;" />
+        <div style="width: 100%">
+            <img src="images/MSP_Shield_CMYK_clear.png" style="height: 50px; width: 50px; display: inline;" />
             <p class="PageTitle">{{tag}} - Microsoft Student Partner Content</p>
         </div>
         <br />
         <ul class="HeaderTabs">
-            <li  ng-class="{active: tag == 'All'}" >   <a ng-click="tag='All';">All</a></li>
+            <li ng-class="{active: tag == 'All'}"><a ng-click="tag='All';">All</a></li>
             <li><a target="_blank" href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></li>
-            <li ng-class="{active: tag == 'Web'}"    > <a ng-click="tag='Web';">Web</a></li>
-            <li ng-class="{active: tag == 'Xamarin'}"> <a ng-click="tag='Xamarin';">Xamarin</a></li>
-            <li ng-class="{active: tag == 'Game'}"   > <a ng-click="tag='Game';">Game</a></li>
-            <li ng-class="{active: tag == 'IoT'}"    > <a ng-click="tag='IoT';">IoT</a></li>
-            <li ng-class="{active: tag == 'Azure'}"  > <a ng-click="tag='Azure';">Azure</a></li>
-            <li ng-class="{active: tag == 'Machine Learning'}"     > <a ng-click="tag='Machine Learning';">Machine Learning</a></li>
-            <li ng-class="{active: tag == 'UWP'}"    > <a ng-click="tag='UWP';">UWP</a></li>
-          
-            <li><a  target="_blank" href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
+            <li ng-class="{active: tag == 'Web'}"><a ng-click="tag='Web';">Web</a></li>
+            <li ng-class="{active: tag == 'Xamarin'}"><a ng-click="tag='Xamarin';">Xamarin</a></li>
+            <li ng-class="{active: tag == 'Game'}"><a ng-click="tag='Game';">Game</a></li>
+            <li ng-class="{active: tag == 'IoT'}"><a ng-click="tag='IoT';">IoT</a></li>
+            <li ng-class="{active: tag == 'Azure'}"><a ng-click="tag='Azure';">Azure</a></li>
+            <li ng-class="{active: tag == 'Machine Learning'}"><a ng-click="tag='Machine Learning';">Machine Learning</a></li>
+            <li ng-class="{active: tag == 'UWP'}"><a ng-click="tag='UWP';">UWP</a></li>
+
+            <li><a target="_blank" href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
         </ul>
 
-        <br><br>
-        <div style="width:100%; float:left; padding:10px; margin:5px;">
-            <span> Type tags:</span>
-            <input ng-model="search" /><button ng-click="tag=search">search</button>
+        <br>
+        <br>
+        <div style="width: 100%; float: left; padding: 10px; margin: 5px;">
+            <span>Type tags:</span>
+            <input ng-model="search" />
+            <button ng-click="tag=search">search</button>
             <span>Difficulty: </span>
-            <select ng-model="difficulty" style="width:100px;">
+            <select ng-model="difficulty" style="width: 100px;">
+                <option value="" disabled selected>All Difficulties</option>
                 <option ng-repeat="n in [1,2,3,4,5]">{{n}}</option>
             </select>
         </div>
         <br />
     </div>
-<hr/>
+    <hr />
     <center>
 <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
 	<div onclick="window.open(id)" id={{item.link}}>
@@ -74,6 +75,13 @@
 
     <script type="text/javascript" src="./scripts/methods.js"></script>
 
+    <footer class="aboutFooter">
+        <center>
+            <img src="images/Microsoft-logo_rgb_c-wht.png" />
+            <br />
+            <span>-Microsoft Student Partners-</span>
+        </center>
+    </footer>
 
 </body>
 </html>
