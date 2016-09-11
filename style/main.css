@@ -8,19 +8,19 @@
 body{
 	background-color:#E6E6E6;
 	font-family: "Segoe UI", "MSP";
-    font-weight: 300;
+	font-weight: 300;
 
 }
 button
 {
 	background-color:#e7e7e7;
 	color:black;
-    border: none;
+	border: none;
  padding:2px;
  margin: 0 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
    
 }
 .header
@@ -65,20 +65,28 @@ button
 
 
 li {
-    display: inline;
+	display: inline;
 	margin-right:30px;
 	margin-bottom:10px;
 	float:left;
 }
 .PageTitle
 {
-    color:white;
+	color:white;
 	font-size:50px;
-     margin-bottom:10px; 
-     display:inline;
+	 margin-bottom:10px; 
+	 display:inline;
+	
+}
+.PageLogo
+{
+	height: 50px; 
+	width: 50px; 
+	display: inline; 
+	margin: auto 0;
 }
 span{
-    color:white;
+	color:white;
 }
 .GitHubItem
 {
