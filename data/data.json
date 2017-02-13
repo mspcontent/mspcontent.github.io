@@ -1,4 +1,4 @@
-[
+﻿[
   {
 	"title": "Azure Mobile Services Lab",
 	"author": "David Giard",
@@ -171,21 +171,7 @@
 	"author": "Pierce Boggan",
 	"difficulty": 3,
 	"description": "Everything you need to run a workshop on Xamarin's native mobile cross platform apps",
-	"tags": [
-	  "Xamarin",
-	  "Phone",
-	  "UWP",
-	  "iOS",
-	  "Andriod",
-	  "C#"
-	]
-  },
-   {
-	"title": "Xamarin Monkey Tweet",
-	"author": "Pierce Boggan",
-	"difficulty": 3,
-	"link":"https://github.com/pierceboggan/monkeytweet",
-	"description": "A minimalistic Xamarin twitter app",
+	"link": "https://github.com/michstmatt/workshops",
 	"tags": [
 	  "Xamarin",
 	  "Phone",
@@ -290,5 +276,28 @@
 	  "Machine Learning","Azure"
 	  
 	]
+  },
+{
+	"title": "MSP Intro to Web Development",
+	"author": "Samuel Yanez",
+	"difficulty": 3,
+	"link": "https://github.com/samyanez94/MSP-Intro-to-web-development",
+	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to build your own portfolio website and learn about HTML and CSS.",
+	"tags": [
+	  "Web","HTML","CSS"
+	  
+	]
+  },
+{
+	"title": "MSP Intro to JavaScript",
+	"author": "Samuel Yanez",
+	"difficulty": 3,
+	"link": "https://github.com/samyanez94/MSP-Intro-to-Javascript",
+	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to follow along and learn about JavaScript.",
+	"tags": [
+	  "Web","JavaScript"
+	  
+	]
   }
+
 ]
