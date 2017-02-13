@@ -280,7 +280,7 @@
 {
 	"title": "MSP Intro to Web Development",
 	"author": "Samuel Yanez",
-	"difficulty": 3,
+	"difficulty": 1,
 	"link": "https://github.com/samyanez94/MSP-Intro-to-web-development",
 	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to build your own portfolio website and learn about HTML and CSS.",
 	"tags": [
@@ -291,7 +291,7 @@
 {
 	"title": "MSP Intro to JavaScript",
 	"author": "Samuel Yanez",
-	"difficulty": 3,
+	"difficulty": 1,
 	"link": "https://github.com/samyanez94/MSP-Intro-to-Javascript",
 	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to follow along and learn about JavaScript.",
 	"tags": [
