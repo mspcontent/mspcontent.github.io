@@ -298,6 +298,39 @@
 	  "Web","JavaScript"
 	  
 	]
+  },
+{
+	"title": "Bot Workshop",
+	"author": "Daniel Egan",
+	"difficulty": 3,
+	"link": "https://github.com/DanielEgan/BotWorkshop",
+	"description": "Step-by-step instructions for the Node and C# projects are in a .docx file located BotWorkshop/CSharpWorkshop & BotWorkshop/NodeWorkshop folders.",
+	"tags": [
+	  "Web","Azure","C#","Node","Bot"
+	  
+	]
+  },
+{
+	"title": "Bot Builder SDK",
+	"author": "Daniel Egan",
+	"difficulty": 3,
+	"link": "https://github.com/Microsoft/BotBuilder",
+	"description": "The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+	"tags": [
+	  "Web","Azure","C#","Node","Bot"
+	  
+	]
+  },
+{
+	"title": "Bot Builder Samples",
+	"author": "Daniel Egan",
+	"difficulty": 3,
+	"link": "https://github.com/Microsoft/BotBuilder-Samples",
+	"description": "Bot Builder samples are organized into groups and designed to illustrate task-focused samples in C# and Node.js to help you build great bots! To use the samples clone our GitHub repository using Git.",
+	"tags": [
+	  "Web","Azure","C#","Node","Bot"
+	  
+	]
   }
 
 ]
