@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 5.0 Transitional//EN" "http://www.w3.org/TR/xhtml5/DTD/xhtml5-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+    <script src="scripts/angular.min.js"></script>
+
+
+    <title>MSP Content</title>
+    <link rel="stylesheet" href="style/mainbs.css" type="text/css">
+    <link rel="shortcut icon" href="./images/flame.ico">
+
+    <script type="text/javascript" src="scripts/methods.js"></script>
+
+
+
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl" ng-init="tag='All'">
+
+    <nav class="navbar navbar-inverse header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#">Portfolio</a>-->
+                <img src="images/MSP_Shield_RGB_White.png" class="PageLogo" />
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li ng-class="{active: tag == 'All'}"><a ng-click="tag='All';">All</a></li>
+                    <li><a target="_blank" href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></li>
+                    <li ng-class="{active: tag == 'Web'}"><a ng-click="tag='Web';">Web</a></li>
+                    <li ng-class="{active: tag == 'Xamarin'}"><a ng-click="tag='Xamarin';">Xamarin</a></li>
+                    <li ng-class="{active: tag == 'Game'}"><a ng-click="tag='Game';">Game</a></li>
+                    <li ng-class="{active: tag == 'IoT'}"><a ng-click="tag='IoT';">IoT</a></li>
+                    <li ng-class="{active: tag == 'Azure'}"><a ng-click="tag='Azure';">Azure</a></li>
+                    <li ng-class="{active: tag == 'Machine Learning'}"><a ng-click="tag='Machine Learning';">Machine Learning</a></li>
+                    <li ng-class="{active: tag == 'UWP'}"><a ng-click="tag='UWP';">UWP</a></li>
+
+                    <li><a target="_blank" href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
+
+
+                </ul>
+                <div style="width: 100%; float: left; padding: 10px; margin: 5px;">
+                    <span>Type tags:</span>
+                    <input ng-model="search" />
+                    <button ng-click="tag=search">search</button>
+                    <span>Difficulty: </span>
+                    <select ng-model="difficulty" style="width: 100px;">
+                        <option value=""  selected>All Difficulties</option>
+                        <option ng-repeat="n in [1,2,3,4,5]">{{n}}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid bg-3 text-center">
+      
+        <!--<div class="row">
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>-->
+
+        <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'">
+            <div onclick="window.open(id)" id={{item.link}}>
+                <p class="GitHubTitle">{{item.title}}</p>
+
+                <p class="GitHubAuthor">{{item.author}}</p>
+                <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
+
+                <p class="GitHubDescription">{{item.description}}</p>
+                <div style="background:#2F5596; width:100%; ; min-height:25px; height:auto; bottom:-5px; position:relative; overflow:clip; ">
+                    <ul ng-repeat="tag in item.tags | limitTo:4">
+                        <li class="GitHubTags">{{tag}}</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div><br>
+
+
+
+    
+
+    
+    <footer class="aboutFooter">
+        <center>
+            <img src="images/Microsoft-logo_rgb_c-wht.png" />
+            <br />
+            <span>-Microsoft Student Partners-</span>
+        </center>
+    </footer>
+
+</body>
+</html>

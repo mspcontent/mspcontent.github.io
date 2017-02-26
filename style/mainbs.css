@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "MSP";
+
+  src: url('../fonts/segoeui.ttf')
+  ;
+}
+
+body{
+	background-color:#E6E6E6;
+	font-family: "Segoe UI", "MSP";
+	font-weight: 300;
+
+}
+button
+{
+	background-color:#e7e7e7;
+	color:black;
+	border: none;
+ padding:2px;
+ margin: 0 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+   
+}
+.header
+{
+	
+	background-color:#2F5596;
+	overflow:hidden;
+	
+}
+
+
+
+
+.PageTitle
+{
+	color:white;
+	font-size:50px;
+	 margin-bottom:10px; 
+	 display:inline;
+	
+}
+.PageLogo
+{
+	height: 50px; 
+	width: 50px; 
+	display: inline; 
+	margin: auto 0;
+}
+span{
+	color:white;
+}
+.GitHubItem
+{
+	display: inline-block;
+	/*float:left;*/
+	background:white;
+	margin:10px;
+	/*padding:5px;*/
+	width:420px;
+	height: 420px;
+	color: black;
+	min-height: 200px;
+	text-decoration: none;
+	
+}
+.GitHubItem:hover
+{
+	
+	background:#f9f9f9;
+}
+.GitHubTitle
+{
+	font-size:22px;
+	margin-top:5px;
+	width:100%;
+	color: black;
+	margin-left:5px;
+	height:40px;
+}
+.GitHubDescription
+{
+	color: black;
+	font-size:14px;
+	width:90%;
+	height: 240px;
+	text-overflow:clip;
+	overflow:hidden;
+	padding:5px;
+
+}
+.GitHubAuthor
+{
+	color: #2F5596;
+	font-weight: 500;
+	font-size:16px;
+	width:100%;
+	margin-left:5px;
+	height:20px;
+	
+}
+.GitHubTags
+{
+	color:white;
+	float:bottom;
+	margin-bottom:10px;
+}
+.GitHubDifficulty
+{
+	height:10px;
+	font-size:12px;
+	margin-left:5px;
+}
+.aboutFooter
+{
+	width:100%;
+	margin:0 auto;
+    background:#888888;
+}
+.aboutFooter img
+{
+	height:100px;
+	width:auto;
+	margin:0 auto;
+}
+.aboutFooter span
+{
+	color:black;
+}
