@@ -27,10 +27,17 @@ button
 {
 	
 	background-color:#2F5596;
-	overflow:hidden;
-	
+	overflow:hidden;	
 }
-
+.navbar li a
+{
+    font-size:18px;
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus  {
+    background-color: #1e3660;
+}
 
 
 
@@ -48,6 +55,7 @@ button
 	width: 50px; 
 	display: inline; 
 	margin: auto 0;
+    padding:5px;
 }
 span{
 	color:white;
@@ -68,7 +76,6 @@ span{
 }
 .GitHubItem:hover
 {
-	
 	background:#f9f9f9;
 }
 .GitHubTitle
