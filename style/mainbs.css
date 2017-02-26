@@ -63,14 +63,14 @@ span{
 .GitHubItem
 {
 	display: inline-block;
-	/*float:left;*/
+	
 	background:white;
 	margin:10px;
-	/*padding:5px;*/
+
 	width:420px;
 	height: 420px;
 	color: black;
-	min-height: 200px;
+	min-height: 420px;
 	text-decoration: none;
 	
 }
@@ -115,8 +115,9 @@ span{
     margin-bottom: 10px;
     float: left;
 	color:white;
-	float:bottom;
-	margin-bottom:10px;
+	margin-top:410px;
+    height:10px;
+	
 }
 .GitHubDifficulty
 {
@@ -124,6 +125,8 @@ span{
 	font-size:12px;
 	margin-left:5px;
 }
+
+
 .aboutFooter
 {
 	width:100%;
