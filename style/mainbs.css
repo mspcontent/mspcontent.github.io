@@ -101,8 +101,12 @@ span{
 	height:20px;
 	
 }
-.GitHubTags
-{
+
+.GitHubTags {
+    display: inline;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    float: left;
 	color:white;
 	float:bottom;
 	margin-bottom:10px;

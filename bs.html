@@ -79,42 +79,24 @@
 
     <div class="container-fluid bg-3 text-center">
       
-        <!--<div class="row">
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-            <div class="col-sm-3">
-                <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            </div>
-        </div>-->
+        <center>
+            <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'">
+                <div onclick="window.open(id)" id={{item.link}}>
+                    <p class="GitHubTitle">{{item.title}}</p>
 
-        <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'">
-            <div onclick="window.open(id)" id={{item.link}}>
-                <p class="GitHubTitle">{{item.title}}</p>
+                    <p class="GitHubAuthor">{{item.author}}</p>
+                    <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
 
-                <p class="GitHubAuthor">{{item.author}}</p>
-                <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
-
-                <p class="GitHubDescription">{{item.description}}</p>
-                <div style="background:#2F5596; width:100%; ; min-height:25px; height:auto; bottom:-5px; position:relative; overflow:clip; ">
-                    <ul ng-repeat="tag in item.tags | limitTo:4">
-                        <li class="GitHubTags">{{tag}}</li>
-                    </ul>
+                    <p class="GitHubDescription">{{item.description}}</p>
+                    <div style="background:#2F5596; width:100%; ; min-height:25px; height:auto; bottom:-5px; position:relative; overflow:clip; ">
+                        <ul ng-repeat="tag in item.tags | limitTo:4">
+                            <li class="GitHubTags">{{tag}}</li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
-
-        </div>
-
+        </center>
 
     </div><br>
 
