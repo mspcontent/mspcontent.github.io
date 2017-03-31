@@ -66,11 +66,11 @@ span{
 	
 	background:white;
 	margin:10px;
-
+    min-width:350px;
 	width:420px;
 	height: 420px;
 	color: black;
-	min-height: 420px;
+	min-height: 350px;
 	text-decoration: none;
 	
 }
