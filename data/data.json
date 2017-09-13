@@ -2,7 +2,7 @@
   {
 	"title": "Azure Mobile Services Lab",
 	"author": "David Giard",
-	"difficulty": 3,
+	"difficulty": 30,
 	"description": "Storing data in the cloud allows your application to remember information between launches and to share data among other users, applications, and devices. &nbsp;&nbsp; Exposing that data via a REST interface makes this data accessible to applications running on a variety of platforms and written in a variety of languages. REST is an architectural pattern for allowing clients to read and update server data through a consistent API. The current implementations of REST uses an HTTP endpoint (a URL) to expose functionality and the features of HTTP (verbs, response codes, and header data) to exchange data between the client and the server. &nbsp;&nbsp; Azure Mobile Services (ZuMo) makes it easier to expose your data as a REST endpoint by handling the plumbing code for you so that you can focus on your data model and your business logic. &nbsp;&nbsp; With just a few clicks, you can create a service and map it to a database table. ZuMo will create an HTTP endpoint; map HTTP verbs to Create, Read, Update, and Delete methods; create those methods for you; and handle the transformation from JSON data into objects that map to rows in your database table. This isn't impossible code for you to write, but it can be a lot of code. And wouldn't your time be better spent writing the code that makes your application unique? &nbsp;&nbsp; Azure Mobile Services will even generate a client application to call your new REST service and pass data to and from it. You can use this application as a starting point or you can copy and paste code from this app into your own client app. ZuMo is capable of generating a sample client application for Windows 8, Windows Phone, HTML and JavaScript, Xamarin, PhoneGap, Android, or iOS. &nbsp;&nbsp; Azure Mobile Services is a true cross-platform solution that is simple to implement because it handles much of the plumbing code for you.",
 	"link": "https://github.com/mspcontent/Azure-Mobile-Services-Labs",
 	"tags": [
@@ -13,7 +13,7 @@
   {
 	"title": "Django From Azure",
 	"author": "Tim Reilly",
-	"difficulty": 1,
+	"difficulty": 10,
 	"description": "This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
 	"link": "https://github.com/mspcontent/Django-From-Azure",
 	"tags": [
@@ -25,7 +25,7 @@
   {
 	"title": "Jade Templating",
 	"author": "Steven Eduardo",
-	"difficulty": 2,
+	"difficulty": 20,
 	"description": "In this lab we will use Express to create Node recipes a full fledged website which can scale to mobile browsers as well as to the desktop. By the end of this lab you will know 1. How to write html templates with jade2. How to render a view with a jade template and a model using a route",
 	"link": "https://github.com/mspcontent/jade-templating",
 	"tags": [
@@ -36,7 +36,7 @@
   {
 	"title": "Spark Core RGB Controller",
 	"author": "MSP - Matt Pasco",
-	"difficulty": 3,
+	"difficulty": 30,
 	"description": "Windows App For Controlling a Spark Core<br>This is a sample windows 8.1 universal app that controls your sparkcore Check out Bret Stateham's tutorial on how to setup your spark core here: https://github.com/mspcontent/Spark-Core-Configuration",
 	"link": "https://github.com/michstmatt/Spark-RGB-Controller",
 	"tags": [
