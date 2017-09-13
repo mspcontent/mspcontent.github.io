@@ -1,258 +1,262 @@
 ﻿[
-
-  {
-	"title": "Django From Azure",
-	"author": "Tim Reilly",
-	"difficulty": 1,
-	"description": "This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
-	"link": "https://github.com/mspcontent/Django-From-Azure",
-	"tags": [
-	  "Azure",
-	  "Web",
-	  "Django"
-	]
-  },
-
-  {
-	"title": "Spark Core RGB Controller",
-	"author": "MSP - Matt Pasco",
-	"difficulty": 3,
-	"description": "Windows App For Controlling a Spark Core<br>This is a sample windows 8.1 universal app that controls your sparkcore Check out Bret Stateham's tutorial on how to setup your spark core here: https://github.com/mspcontent/Spark-Core-Configuration",
-	"link": "https://github.com/michstmatt/Spark-RGB-Controller",
-	"tags": [
-	  "UWP",
-	  "Phone",
-	  "IoT",
-	  "Spark Core"
-	]
-  },
-
-
-  {
-	"title": "Creating Your First Internet Connected Device",
-	"author": "Bret Stateham",
-	"difficulty": 3,
-	"description": "The 'Internet of Things' (IoT) is a hot topic these days. Basically it is about enabling the things we use in day-to-day life to communicate with us, and to be controlled by us in new and exciting ways. By making everyday things 'smart' and connecting them to the Internet, we can gain significantly more value out of those things as well as do things with them that were just never possible before.",
-	"link": "https://github.com/mspcontent/Creating-Your-First-Internet-Connected-Device",
-	"tags": [
-	  "IoT",
-	  "Spark Core"
-	]
-  },
-
-
-  {
-	"title": "Socket.io Real Time Chess",
-	"author": "David Washington",
-	"difficulty": 4,
-	"description": "Mission: Real-time multiplayer chessSo, let’s make a multiplayer chess game that where when you make a move it’s reflected on your opponent’s screen in real-time. Instantly. Checkmate.",
-	"link": "http://dwcares.com/2015/10/21/realchess/",
-	"tags": [
-	  "Web",
-	  "Azure",
-	  "Node",
-	  "JavaScript",
-	  "Socket.io"
-	]
-  },
-  {
-	"title": "Awesome Unity Examples",
-	"author": "Jason Walters",
-	"difficulty": 3,
-	"description": "Collection of great Unity Examples",
-	"link": "https://github.com/jasonrwalters?tab=repositories",
-	"tags": [
-	  "Game",
-	  "Unity"
-	]
-  },
-  {
-	"title": "Multi-language Azure Web Sites with PHP, node.js, .NET ",
-	"author": "Scott and Stefan",
-	"difficulty": 4,
-	"description": "Scott and Stefan dig into what's required of an Azure Web Site to run more than just ASP.NET. Why does a PHP app need a web.config? Can we run one site with more than one technology within it...and is that OK? ",
-	"link": "https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
-	"tags": [
-	  "Web",
-	  "Azure",
-	  "PHP",
-	  "Node",
-	  ".NET"
-	]
-  },
-  {
-	"title": "Running Remote Desktop on a Windows Azure Linux VM",
-	"author": "Planky",
-	"difficulty": 3,
-	"description": "There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
-	"tags": [
-	  "Web",
-	  "Azure",
-	  "Linux"
-	]
-  },
-  {
-	"title": "UWP Development",
-	"author": "Windows Dev",
-	"difficulty": 3,
-	"description": "Get started with UWP developement",
-	"tags": [
-	  "UWP",
-	  "C#",
-	  "Phone"
-	]
-  },
-  {
-	"title": "Xamarin.Forms Workshop",
-	"author": "Pierce Boggan",
-	"difficulty": 3,
-	"description": "Everything you need to run a workshop on Xamarin's native mobile cross platform apps",
-	"link": "https://github.com/michstmatt/workshops",
-	"tags": [
-	  "Xamarin",
-	  "Phone",
-	  "UWP",
-	  "iOS",
-	  "Andriod",
-	  "C#"
-	]
-  },
-  {
-	"title": "Xamarin Moments",
-	"author": "Pierce Boggan",
-	"difficulty": 3,
-	"link":"https://github.com/pierceboggan/Moments",
-	"description": "A SnapChat Clone made with Xamarin.Forms and Microsoft Azure",
-	"tags": [
-	  "Xamarin",
-	  "Phone",
-	  "Azure",
-	  "UWP",
-	  "iOS",
-	  "Andriod",
-	  "C#"
-	]
-  },
    {
-	"title": "Xamarin Smart Coffee",
-	"author": "Pierce Boggan",
-	"difficulty": 3,
-	"link":"https://github.com/pierceboggan/SmartCoffee",
-	"description": "Brew a perfect cup of coffee from iOS and Android apps using Xamarin, Azure IoT Hub, and Microsoft Cognitive Services.",
-	"tags": [
-	  "Xamarin",
-	  "Phone",
-	  "Azure",
-	  "IoT",
-	  "iOS",
-	  "Andriod",
-	  "C#"
-	]
-  },
+      "title":"Django From Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
+      "link":"https://github.com/mspcontent/Django-From-Azure",
+      "tags":[
+         "Azure",
+         "Web",
+         "Django"
+      ]
+   },
    {
-	"title": "Xamarin Forms Samples",
-	"author": "Xamarin",
-	"difficulty": 3,
-	"link":"https://github.com/xamarin/xamarin-forms-samples",
-	"description": "A collection of Xamarin Forms samples.",
-	"tags": [
-	  "Xamarin",
-	  "Phone",
-	  "Azure",
-	  "Xamarin.Forms",
-	  "iOS",
-	  "Andriod",
-	  "C#"
-	]
-  },
-
-  {
-	"title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
-	"author": "Jennifer Marsman",
-	"difficulty": 3,
-	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/19/using-azure-machine-learning-to-predict-who-will-survive-the-titanic/",
-	"description": "One of my “Introduction to Azure Machine Learning” talks demonstrates how to use Azure Machine Learning to make predictions.  The example I use is predicting whether a passenger on the Titanic will survive, given information like their age, gender, class of ticket, ticket fare, etc.  (You can download the Titanic dataset from Kaggle.)",
-	"tags": [
-	  "Machine Learning","Azure"
-	  
-	]
-  },
-  {
-	"title": "How To Optimize Your March Madness Bracket with Azure Machine Learning",
-	"author": "Jennifer Marsman",
-	"difficulty": 3,
-	"link": "https://blogs.msdn.microsoft.com/jennifer/2016/02/29/how-to-optimize-your-march-madness-bracket-with-azure-machine-learning/",
-	"description": "In the latest episode of DevRadio, I interviewed Damon Hachmeister from the Azure Machine Learning team.  Damon runs a competition for Microsoft employees to see who can best predict the results of the NCAA March Madness Tournament using Azure Machine Learning.  Last year, he won second place himself, and he walks us through his algorithm",
-	"tags": [
-	  "Machine Learning","Azure"
-	  
-	]
-  },
-{
-	"title": "MSP Intro to Web Development",
-	"author": "Samuel Yanez",
-	"difficulty": 1,
-	"link": "https://github.com/samyanez94/MSP-Intro-to-web-development",
-	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to build your own portfolio website and learn about HTML and CSS.",
-	"tags": [
-	  "Web","HTML","CSS"
-	  
-	]
-  },
-{
-	"title": "MSP Intro to JavaScript",
-	"author": "Samuel Yanez",
-	"difficulty": 1,
-	"link": "https://github.com/samyanez94/MSP-Intro-to-Javascript",
-	"description": "This repository host all the files we are going to use in our workshop. With these files you will be able to follow along and learn about JavaScript.",
-	"tags": [
-	  "Web","JavaScript"
-	  
-	]
-  },
-{
-	"title": "Bot Workshop",
-	"author": "Daniel Egan",
-	"difficulty": 3,
-	"link": "https://github.com/DanielEgan/BotWorkshop",
-	"description": "Step-by-step instructions for the Node and C# projects are in a .docx file located BotWorkshop/CSharpWorkshop & BotWorkshop/NodeWorkshop folders.",
-	"tags": [
-	  "Web","Azure","C#","Node","Bot"
-	  
-	]
-  },
-{
-	"title": "Bot Builder SDK",
-	"author": "Daniel Egan",
-	"difficulty": 3,
-	"link": "https://github.com/Microsoft/BotBuilder",
-	"description": "The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
-	"tags": [
-	  "Web","Azure","C#","Node","Bot"
-	  
-	]
-  },
-{
-	"title": "Bot Builder Samples",
-	"author": "Daniel Egan",
-	"difficulty": 3,
-	"link": "https://github.com/Microsoft/BotBuilder-Samples",
-	"description": "Bot Builder samples are organized into groups and designed to illustrate task-focused samples in C# and Node.js to help you build great bots! To use the samples clone our GitHub repository using Git.",
-	"tags": [
-	  "Web","Azure","C#","Node","Bot"
-	  
-	]
-  },
-	{
-	"title": "MSP Hardware IoT Workshop",
-	"author": "Eric Zhang",
-	"difficulty": 3,
-	"link": "https://github.com/ericsibored/MSP-Hardware-IoT-Workshop",
-	"description": "Slide deck for workshop focused on learning how to set up and use essential hardware in Microsoft Azure IoT kits for IoT development. This presentation discusses the fundamentals of developing an IoT project and covers a basic hands-on tutorial on debugging, and programming the Feather M0 and Featherwing to play Tetris.",
-	"tags": [
-	  "IoT","Azure","C++","Arduino"
-	  
-	]
-  }
-
+      "title":"Spark Core RGB Controller",
+      "author":"MSP - Matt Pasco",
+      "difficulty":3,
+      "description":"Windows App For Controlling a Spark Core<br>This is a sample windows 8.1 universal app that controls your sparkcore Check out Bret Stateham's tutorial on how to setup your spark core here: https://github.com/mspcontent/Spark-Core-Configuration",
+      "link":"https://github.com/michstmatt/Spark-RGB-Controller",
+      "tags":[
+         "UWP",
+         "Phone",
+         "IoT",
+         "Spark Core"
+      ]
+   },
+   {
+      "title":"Creating Your First Internet Connected Device",
+      "author":"Bret Stateham",
+      "difficulty":3,
+      "description":"The 'Internet of Things' (IoT) is a hot topic these days. Basically it is about enabling the things we use in day-to-day life to communicate with us, and to be controlled by us in new and exciting ways. By making everyday things 'smart' and connecting them to the Internet, we can gain significantly more value out of those things as well as do things with them that were just never possible before.",
+      "link":"https://github.com/mspcontent/Creating-Your-First-Internet-Connected-Device",
+      "tags":[
+         "IoT",
+         "Spark Core"
+      ]
+   },
+   {
+      "title":"Socket.io Real Time Chess",
+      "author":"David Washington",
+      "difficulty":4,
+      "description":"Mission: Real-time multiplayer chessSo, let’s make a multiplayer chess game that where when you make a move it’s reflected on your opponent’s screen in real-time. Instantly. Checkmate.",
+      "link":"http://dwcares.com/2015/10/21/realchess/",
+      "tags":[
+         "Web",
+         "Azure",
+         "Node",
+         "JavaScript",
+         "Socket.io"
+      ]
+   },
+   {
+      "title":"Awesome Unity Examples",
+      "author":"Jason Walters",
+      "difficulty":3,
+      "description":"Collection of great Unity Examples",
+      "link":"https://github.com/jasonrwalters?tab=repositories",
+      "tags":[
+         "Game",
+         "Unity"
+      ]
+   },
+   {
+      "title":"Multi-language Azure Web Sites with PHP, node.js, .NET ",
+      "author":"Scott and Stefan",
+      "difficulty":4,
+      "description":"Scott and Stefan dig into what's required of an Azure Web Site to run more than just ASP.NET. Why does a PHP app need a web.config? Can we run one site with more than one technology within it...and is that OK? ",
+      "link":"https://azure.microsoft.com/en-us/documentation/videos/multi-language-azure-web-sites-with-php-node-and-dotnet/",
+      "tags":[
+         "Web",
+         "Azure",
+         "PHP",
+         "Node",
+         ".NET"
+      ]
+   },
+   {
+      "title":"Running Remote Desktop on a Windows Azure Linux VM",
+      "author":"Planky",
+      "difficulty":3,
+      "description":"There are some programs and utilities that just can't be run at the command-line supplied by the default Linux images in the Windows Azure Linux gallery. Sometimes, you have to use a graphical desktop with a mouse, windows, icons and all the stuff we're spoilt with on Windows.",
+      "tags":[
+         "Web",
+         "Azure",
+         "Linux"
+      ]
+   },
+   {
+      "title":"UWP Development",
+      "author":"Windows Dev",
+      "difficulty":3,
+      "description":"Get started with UWP developement",
+      "tags":[
+         "UWP",
+         "C#",
+         "Phone"
+      ]
+   },
+   {
+      "title":"Xamarin.Forms Workshop",
+      "author":"Pierce Boggan",
+      "difficulty":3,
+      "description":"Everything you need to run a workshop on Xamarin's native mobile cross platform apps",
+      "link":"https://github.com/michstmatt/workshops",
+      "tags":[
+         "Xamarin",
+         "Phone",
+         "UWP",
+         "iOS",
+         "Andriod",
+         "C#"
+      ]
+   },
+   {
+      "title":"Xamarin Moments",
+      "author":"Pierce Boggan",
+      "difficulty":3,
+      "link":"https://github.com/pierceboggan/Moments",
+      "description":"A SnapChat Clone made with Xamarin.Forms and Microsoft Azure",
+      "tags":[
+         "Xamarin",
+         "Phone",
+         "Azure",
+         "UWP",
+         "iOS",
+         "Andriod",
+         "C#"
+      ]
+   },
+   {
+      "title":"Xamarin Smart Coffee",
+      "author":"Pierce Boggan",
+      "difficulty":3,
+      "link":"https://github.com/pierceboggan/SmartCoffee",
+      "description":"Brew a perfect cup of coffee from iOS and Android apps using Xamarin, Azure IoT Hub, and Microsoft Cognitive Services.",
+      "tags":[
+         "Xamarin",
+         "Phone",
+         "Azure",
+         "IoT",
+         "iOS",
+         "Andriod",
+         "C#"
+      ]
+   },
+   {
+      "title":"Xamarin Forms Samples",
+      "author":"Xamarin",
+      "difficulty":3,
+      "link":"https://github.com/xamarin/xamarin-forms-samples",
+      "description":"A collection of Xamarin Forms samples.",
+      "tags":[
+         "Xamarin",
+         "Phone",
+         "Azure",
+         "Xamarin.Forms",
+         "iOS",
+         "Andriod",
+         "C#"
+      ]
+   },
+   {
+      "title":"Using Azure Machine Learning to Predict Who Will Survive the Titanic",
+      "author":"Jennifer Marsman",
+      "difficulty":3,
+      "link":"https://blogs.msdn.microsoft.com/jennifer/2016/02/19/using-azure-machine-learning-to-predict-who-will-survive-the-titanic/",
+      "description":"One of my “Introduction to Azure Machine Learning” talks demonstrates how to use Azure Machine Learning to make predictions.  The example I use is predicting whether a passenger on the Titanic will survive, given information like their age, gender, class of ticket, ticket fare, etc.  (You can download the Titanic dataset from Kaggle.)",
+      "tags":[
+         "Machine Learning",
+         "Azure"
+      ]
+   },
+   {
+      "title":"How To Optimize Your March Madness Bracket with Azure Machine Learning",
+      "author":"Jennifer Marsman",
+      "difficulty":3,
+      "link":"https://blogs.msdn.microsoft.com/jennifer/2016/02/29/how-to-optimize-your-march-madness-bracket-with-azure-machine-learning/",
+      "description":"In the latest episode of DevRadio, I interviewed Damon Hachmeister from the Azure Machine Learning team.  Damon runs a competition for Microsoft employees to see who can best predict the results of the NCAA March Madness Tournament using Azure Machine Learning.  Last year, he won second place himself, and he walks us through his algorithm",
+      "tags":[
+         "Machine Learning",
+         "Azure"
+      ]
+   },
+   {
+      "title":"MSP Intro to Web Development",
+      "author":"Samuel Yanez",
+      "difficulty":1,
+      "link":"https://github.com/samyanez94/MSP-Intro-to-web-development",
+      "description":"This repository host all the files we are going to use in our workshop. With these files you will be able to build your own portfolio website and learn about HTML and CSS.",
+      "tags":[
+         "Web",
+         "HTML",
+         "CSS"
+      ]
+   },
+   {
+      "title":"MSP Intro to JavaScript",
+      "author":"Samuel Yanez",
+      "difficulty":1,
+      "link":"https://github.com/samyanez94/MSP-Intro-to-Javascript",
+      "description":"This repository host all the files we are going to use in our workshop. With these files you will be able to follow along and learn about JavaScript.",
+      "tags":[
+         "Web",
+         "JavaScript"
+      ]
+   },
+   {
+      "title":"Bot Workshop",
+      "author":"Daniel Egan",
+      "difficulty":3,
+      "link":"https://github.com/DanielEgan/BotWorkshop",
+      "description":"Step-by-step instructions for the Node and C# projects are in a .docx file located BotWorkshop/CSharpWorkshop & BotWorkshop/NodeWorkshop folders.",
+      "tags":[
+         "Web",
+         "Azure",
+         "C#",
+         "Node",
+         "Bot"
+      ]
+   },
+   {
+      "title":"Bot Builder SDK",
+      "author":"Daniel Egan",
+      "difficulty":3,
+      "link":"https://github.com/Microsoft/BotBuilder",
+      "description":"The Microsoft Bot Builder SDK is one of three main components of the Microsoft Bot Framework. The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+      "tags":[
+         "Web",
+         "Azure",
+         "C#",
+         "Node",
+         "Bot"
+      ]
+   },
+   {
+      "title":"Bot Builder Samples",
+      "author":"Daniel Egan",
+      "difficulty":3,
+      "link":"https://github.com/Microsoft/BotBuilder-Samples",
+      "description":"Bot Builder samples are organized into groups and designed to illustrate task-focused samples in C# and Node.js to help you build great bots! To use the samples clone our GitHub repository using Git.",
+      "tags":[
+         "Web",
+         "Azure",
+         "C#",
+         "Node",
+         "Bot"
+      ]
+   },
+   {
+      "title":"MSP Hardware IoT Workshop",
+      "author":"Eric Zhang",
+      "difficulty":3,
+      "link":"https://github.com/ericsibored/MSP-Hardware-IoT-Workshop",
+      "description":"Slide deck for workshop focused on learning how to set up and use essential hardware in Microsoft Azure IoT kits for IoT development. This presentation discusses the fundamentals of developing an IoT project and covers a basic hands-on tutorial on debugging, and programming the Feather M0 and Featherwing to play Tetris.",
+      "tags":[
+         "IoT",
+         "Azure",
+         "C++",
+         "Arduino"
+      ]
+   }
 ]
