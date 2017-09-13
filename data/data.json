@@ -22,17 +22,7 @@
 	  "Django"
 	]
   },
-  {
-	"title": "Jade Templating",
-	"author": "Steven Eduardo",
-	"difficulty": 2,
-	"description": "In this lab we will use Express to create Node recipes a full fledged website which can scale to mobile browsers as well as to the desktop. By the end of this lab you will know 1. How to write html templates with jade2. How to render a view with a jade template and a model using a route",
-	"link": "https://github.com/mspcontent/jade-templating",
-	"tags": [
-	  "Web",
-	  "Jade"
-	]
-  },
+
   {
 	"title": "Spark Core RGB Controller",
 	"author": "MSP - Matt Pasco",
@@ -46,19 +36,7 @@
 	  "Spark Core"
 	]
   },
-  {
-	"title": "Lucky Lotto",
-	"author": "MSP - Mustafa Taleb",
-	"difficulty": 2,
-	"description": "This is a sample project made this year demonstrating the MVVM design pattern for beginners and some asynchronous programming. The app is a lottery number generator. The app accepts user input to generate lucky lottery numbers.",
-	"link": "https://github.com/janabimustafa/LuckyLotto",
-	"tags": [
-	  "UWP",
-	  "Phone",
-	  "MVVM",
-	  "Async"
-	]
-  },
+
   {
 	"title": "Xaml Data Binding",
 	"difficulty": 2,
@@ -229,31 +207,6 @@
 	  "C#"
 	]
   },
-   {
-	"title": "Course - HTML developement fundamentals",
-	"author": "Microsoft Virtual Academy",
-	"difficulty": 1,
-	"link":"https://mva.microsoft.com/en-us/training-courses/html5-css3-fundamentals-development-for-absolute-beginners-14207?l=Y4COscFfB_7500115888",
-	"description": "Learn to make a webpage, this course is designed for beginners.",
-	"tags": [
-	  "Web",
-	  "HTML",
-	  "CSS"
-	]
-  },
-   {
-	"title": "HTML and CSS for Beginners",
-	"author": "Christopher Harrison",
-	"difficulty": 1,
-	"link":"  https://github.com/MicrosoftLearning/html-css-beginners",
-	"description": "Repository for HTML & CSS for Absolute Beginners",
-	"tags": [
-	  "Web",
-	  "HTML",
-	  "CSS"
-	]
-  },
-
 
   {
 	"title": "Using Azure Machine Learning to Predict Who Will Survive the Titanic",
