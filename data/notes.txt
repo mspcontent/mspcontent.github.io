@@ -1,0 +1,28 @@
+List of unused:
+
+  {
+	"title": "Course - HTML developement fundamentals",
+	"author": "Microsoft Virtual Academy",
+	"difficulty": 1,
+	"link":"https://mva.microsoft.com/en-us/training-courses/html5-css3-fundamentals-development-for-absolute-beginners-14207?l=Y4COscFfB_7500115888",
+	"description": "Learn to make a webpage, this course is designed for beginners.",
+	"tags": [
+	  "Web",
+	  "HTML",
+	  "CSS"
+	]
+  },
+
+  
+   {
+	"title": "HTML and CSS for Beginners",
+	"author": "Christopher Harrison",
+	"difficulty": 1,
+	"link":"  https://github.com/MicrosoftLearning/html-css-beginners",
+	"description": "Repository for HTML & CSS for Absolute Beginners",
+	"tags": [
+	  "Web",
+	  "HTML",
+	  "CSS"
+	]
+  },
