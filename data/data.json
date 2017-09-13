@@ -37,19 +37,7 @@
 	]
   },
 
-  {
-	"title": "Xaml Data Binding",
-	"difficulty": 2,
-	"author": "MSP - Matt Pasco",
-	"description": "A simple Windows 8.1 app that shows how to do Data Binding",
-	"link": "https://github.com/michstmatt/Windows-8.1-Data-Binding-App-Demo",
-	"tags": [
-	  "UWP",
-	  "Phone",
-	  "MVVM",
-	  "Databinding"
-	]
-  },
+
   {
 	"title": "Creating Your First Internet Connected Device",
 	"author": "Bret Stateham",
@@ -61,17 +49,7 @@
 	  "Spark Core"
 	]
   },
-  {
-	"title": "MSP IoT Kit Overview",
-	"author": "Bret Stateham",
-	"difficulty": 2,
-	"description": "Here is a PowerPoint overview of the IoT kit provided to MSPs",
-	"link": "https://github.com/mspcontent/MSP-IoT-Kit-Overview",
-	"tags": [
-	  "IoT",
-	  "Spark Core"
-	]
-  },
+
   {
 	"title": "Spark Core Configuration",
 	"author": "Bret Stateham",
