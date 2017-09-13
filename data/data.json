@@ -24,7 +24,6 @@
          "Spark Core"
       ]
    },
-
    {
       "title":"Socket.io Real Time Chess",
       "author":"David Washington",
@@ -39,7 +38,6 @@
          "Socket.io"
       ]
    },
- 
    {
       "title":"Multi-language Azure Web Sites with PHP, node.js, .NET ",
       "author":"Scott and Stefan",
@@ -52,18 +50,6 @@
          "PHP",
          "Node",
          ".NET"
-      ]
-   },
-
-   {
-      "title":"UWP Development",
-      "author":"Windows Dev",
-      "difficulty":3,
-      "description":"Get started with UWP developement",
-      "tags":[
-         "UWP",
-         "C#",
-         "Phone"
       ]
    },
    {

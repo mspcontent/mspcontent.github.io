@@ -82,8 +82,7 @@
          "Spark Core"
       ]
    },
-
-      {
+   {
       "title":"Creating Your First Internet Connected Device",
       "author":"Bret Stateham",
       "difficulty":3,
@@ -94,8 +93,7 @@
          "Spark Core"
       ]
    },
-
-     {
+   {
       "title":"Awesome Unity Examples",
       "author":"Jason Walters",
       "difficulty":3,
@@ -106,8 +104,7 @@
          "Unity"
       ]
    },
-
-      {
+   {
       "title":"Running Remote Desktop on a Windows Azure Linux VM",
       "author":"Planky",
       "difficulty":3,
@@ -118,8 +115,17 @@
          "Linux"
       ]
    },
-
-   
+   {
+      "title":"UWP Development",
+      "author":"Windows Dev",
+      "difficulty":3,
+      "description":"Get started with UWP developement",
+      "tags":[
+         "UWP",
+         "C#",
+         "Phone"
+      ]
+   },
    {
       "title":"Azure Mobile Services Lab",
       "author":"David Giard",
