@@ -13,7 +13,7 @@
   {
 	"title": "Django From Azure",
 	"author": "Tim Reilly",
-	"difficulty": 10,
+	"difficulty": 1,
 	"description": "This guide was designed to help a young developer get started developing for the web. It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
 	"link": "https://github.com/mspcontent/Django-From-Azure",
 	"tags": [
