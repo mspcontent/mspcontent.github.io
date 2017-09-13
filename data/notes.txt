@@ -1,5 +1,4 @@
-List of unused:
-
+[
   {
 	"title": "Course - HTML developement fundamentals",
 	"author": "Microsoft Virtual Academy",
@@ -105,3 +104,4 @@ List of unused:
 	  "Web"
 	]
   },
+  ]
