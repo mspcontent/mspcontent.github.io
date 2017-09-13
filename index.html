@@ -1,84 +1,67 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 5.0 Transitional//EN" "http://www.w3.org/TR/xhtml5/DTD/xhtml5-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
-	<script src="scripts/angular.min.js"></script>
-
-
-
-	<title>MSP Content</title>
-	<link rel="stylesheet" href="style/main.css" type="text/css">
-	<link rel="shortcut icon" href="./images/flame.ico">
-</head>
-
-<body ng-app="myApp" ng-controller="myCtrl" ng-init="tag='All'">
-	<div class="header">
-		<div style="width: 100%;">
-			<img src="images/MSP_Shield_RGB_White.png" class="PageLogo" />
-			<p class="PageTitle">{{tag}} - Microsoft Student Partner Content</p>
-		</div>
-		<br />
-		<ul class="HeaderTabs">
-			<li ng-class="{active: tag == 'All'}"><a ng-click="tag='All';">All</a></li>
-			<li><a target="_blank" href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></li>
-			<li ng-class="{active: tag == 'Web'}"><a ng-click="tag='Web';">Web</a></li>
-			<li ng-class="{active: tag == 'Xamarin'}"><a ng-click="tag='Xamarin';">Xamarin</a></li>
-			<li ng-class="{active: tag == 'Game'}"><a ng-click="tag='Game';">Game</a></li>
-			<li ng-class="{active: tag == 'IoT'}"><a ng-click="tag='IoT';">IoT</a></li>
-			<li ng-class="{active: tag == 'Azure'}"><a ng-click="tag='Azure';">Azure</a></li>
-			<li ng-class="{active: tag == 'Machine Learning'}"><a ng-click="tag='Machine Learning';">Machine Learning</a></li>
-			<li ng-class="{active: tag == 'UWP'}"><a ng-click="tag='UWP';">UWP</a></li>
-
-			<li><a target="_blank" href="https://www.dreamspark.com/">Microsoft Dreamspark</a></li>
-		</ul>
-
-		<br>
-		<br>
-		<div style="width: 100%; float: left; padding: 10px; margin: 5px;">
-			<span>Type tags:</span>
-			<input ng-model="search" />
-			<button ng-click="tag=search">search</button>
-			<span>Difficulty: </span>
-			<select ng-model="difficulty" style="width: 100px;">
-				<option value="" disabled selected>All Difficulties</option>
-				<option ng-repeat="n in [1,2,3,4,5]">{{n}}</option>
-			</select>
-		</div>
-		<br />
-	</div>
-	<hr />
-	<center>
-<div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
-	<div onclick="window.open(id)" id={{item.link}}>
-		<p class="GitHubTitle">{{item.title}}</p> 
-	   
-		<p class="GitHubAuthor">{{item.author}}</p>
-		<p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
-		
-		<p class="GitHubDescription" >{{item.description}}</p>
-		<div style="background:#2F5596; width:100%; ; min-height:25px; height:auto; bottom:-5px; position:relative; overflow:clip; ">
-		<ul ng-repeat="tag in item.tags | limitTo:4" >
-			<li class="GitHubTags">{{tag}}</li>
-		</ul>
-		</div>
-	</div>
-	
-</div>
-	</center>
-
-
-
-
-	<script type="text/javascript" src="./scripts/methods.js"></script>
-
-	<footer class="aboutFooter">
-		<center>
-			<img src="images/Microsoft-logo_rgb_c-wht.png" />
-			<br />
-			<span>-Microsoft Student Partners-</span>
-		</center>
-	</footer>
-
-</body>
+   <head>
+      <script src="scripts/angular.min.js"></script>
+      <title>MSP Content</title>
+      <link rel="stylesheet" href="style/main.css" type="text/css">
+      <link rel="shortcut icon" href="./images/flame.ico">
+   </head>
+   <body ng-app="myApp" ng-controller="myCtrl" ng-init="tag='All'">
+      <div class="header">
+         <div style="width: 100%;">
+            <img src="images/MSP_Shield_RGB_White.png" class="PageLogo" />
+            <p class="PageTitle">{{tag}} - Microsoft Student Partner Content</p>
+         </div>
+         <br />
+         <ul class="HeaderTabs">
+            <li ng-class="{active: tag == 'All'}"><a ng-click="tag='All';">All</a></li>
+            <li><a target="_blank" href="https://github.com/mspcontent/how-to-use-this-content">How To Use This Content</a></li>
+            <li ng-class="{active: tag == 'Web'}"><a ng-click="tag='Web';">Web</a></li>
+            <li ng-class="{active: tag == 'Xamarin'}"><a ng-click="tag='Xamarin';">Xamarin</a></li>
+            <li ng-class="{active: tag == 'Game'}"><a ng-click="tag='Game';">Game</a></li>
+            <li ng-class="{active: tag == 'IoT'}"><a ng-click="tag='IoT';">IoT</a></li>
+            <li ng-class="{active: tag == 'Azure'}"><a ng-click="tag='Azure';">Azure</a></li>
+            <li ng-class="{active: tag == 'Machine Learning'}"><a ng-click="tag='Machine Learning';">Machine Learning</a></li>
+            <li ng-class="{active: tag == 'UWP'}"><a ng-click="tag='UWP';">UWP</a></li>
+            <li><a target="_blank" href="https://www.imagine.microsoft.com/en-us.com/">Microsoft Imagine</a></li>
+         </ul>
+         <br>
+         <br>
+         <div style="width: 100%; float: left; padding: 10px; margin: 5px;">
+            <span>Type tags:</span>
+            <input ng-model="search" />
+            <button ng-click="tag=search">search</button>
+            <span>Difficulty: </span>
+            <select ng-model="difficulty" style="width: 100px;">
+               <option value="" disabled selected>All Difficulties</option>
+               <option ng-repeat="n in [1,2,3,4,5]">{{n}}</option>
+            </select>
+         </div>
+         <br />
+      </div>
+      <hr />
+      <center>
+         <div class="GitHubItem" ng-repeat="item in data | filterByTags:tag |filterByDifficulty:difficulty |orderBy:'difficulty'" >
+            <div onclick="window.open(id)" id={{item.link}}>
+               <p class="GitHubTitle">{{item.title}}</p>
+               <p class="GitHubAuthor">{{item.author}}</p>
+               <p class="GitHubDifficulty">Difficulty:{{item.difficulty}}</p>
+               <p class="GitHubDescription" >{{item.description}}</p>
+               <div style="background:#2F5596; width:100%; ; min-height:25px; height:auto; bottom:-5px; position:relative; overflow:clip; ">
+                  <ul ng-repeat="tag in item.tags | limitTo:4" >
+                     <li class="GitHubTags">{{tag}}</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </center>
+      <script type="text/javascript" src="./scripts/methods.js"></script>
+      <footer class="aboutFooter">
+         <center>
+            <img src="images/Microsoft-logo_rgb_c-wht.png" />
+            <br />
+            <span>-Microsoft Student Partners-</span>
+         </center>
+      </footer>
+   </body>
 </html>
