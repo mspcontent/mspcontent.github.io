@@ -1,6 +1,17 @@
 ﻿[
 
-
+ {
+      "title":"Azure Web Apps",
+      "author":"Tim Reilly",
+      "difficulty":2,
+      "description":"In this lab, you will use the cross-platform Visual Studio Code editor to build a Web site that uses PHP server-side scripting. Check the .md file for more info!",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/2.%20Web%20Apps",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
  {
       "title":"Introduction to Azure",
       "author":"Tim Reilly",
