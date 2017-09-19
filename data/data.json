@@ -1,14 +1,64 @@
 ﻿[
+   {
+      "title":"Introduction to Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"",
+      "link":"",
+      "tags":[
+         "Azure",
+      ]
+   }, 
+      {
+      "title":"Introduction to Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"",
+      "link":"",
+      "tags":[
+         "Azure",
+      ]
+   }, 
+      {
+      "title":"Introduction to Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"",
+      "link":"",
+      "tags":[
+         "Azure",
+      ]
+   }, 
+      {
+      "title":"Introduction to Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"",
+      "link":"",
+      "tags":[
+         "Azure",
+      ]
+   }, 
+   {
+      "title":"Introduction to Azure",
+      "author":"Tim Reilly",
+      "difficulty":1,
+      "description":"",
+      "link":"",
+      "tags":[
+         "Azure",
+      ]
+   }, 
+
+
  {
       "title":"Introduction to Azure",
       "author":"Tim Reilly",
       "difficulty":1,
-      "description":"It provides tools and configuration before deep diving into the Model, View, Controller architecture.Getting started with MVC is easy, and this was designed to make it even easier. This guide will also provide a context to practice source code management, tooling configuration, and working with repositories.As with most things technology, there will be a focus on the cloud. This means that our deployment will live in the cloud. Every change we make will be pushed to a live and active site that you can visit from anywhere in the world!So once you learn how to build, you will be familiar with deploying and managing.",
-      "link":"https://github.com/mspcontent/Django-From-Azure",
+      "description":"The purpose of this lab is to connect to the lab VM, log in to the Azure Portal, and confirm that you have a working subscription. Check the .md file for more info!",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/1.%20Introduction",
       "tags":[
          "Azure",
-         "Web",
-         "Django"
       ]
    },
 
