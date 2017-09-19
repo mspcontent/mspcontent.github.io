@@ -1,5 +1,16 @@
 ﻿[
    {
+      "title":"Azure Introduction",
+      "author":"Jeff Prosise",
+      "difficulty":1,
+      "description":"The purpose of this lab is to connect to the lab VM, log in to the Azure Portal, and confirm that you have a working subscription.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/1.%20Introduction",
+      "tags":[
+         "Azure",
+      ]
+   },
+
+   {
       "title":"Django From Azure",
       "author":"Tim Reilly",
       "difficulty":1,
