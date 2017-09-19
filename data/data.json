@@ -1,8 +1,22 @@
 ﻿[
 
+{
+      "title":"Azure Storage and Cognitive Services",
+      "author":"Jeff Prosise",
+      "difficulty":2,
+      "description":"In this lab, you will use Eclipse to write a Java Web site that accepts images uploaded by users and stores the images in Azure blob storage. Check the .md file for more info!",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/3.%20Storage",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
  {
       "title":"Azure Web Apps",
-      "author":"Tim Reilly",
+      "author":"Jeff Prosise",
       "difficulty":2,
       "description":"In this lab, you will use the cross-platform Visual Studio Code editor to build a Web site that uses PHP server-side scripting. Check the .md file for more info!",
       "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/2.%20Web%20Apps",
@@ -14,7 +28,7 @@
    },
  {
       "title":"Introduction to Azure",
-      "author":"Tim Reilly",
+      "author":"Jeff Prosise",
       "difficulty":1,
       "description":"The purpose of this lab is to connect to the lab VM, log in to the Azure Portal, and confirm that you have a working subscription. Check the .md file for more info!",
       "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/1.%20Introduction",
