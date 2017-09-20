@@ -1,4 +1,125 @@
-﻿[
+﻿[ 
+
+
+
+
+
+
+
+{
+      "title":"Handling Big Data with Azure Data Lake",
+      "author":"Jeff Prosise",
+      "difficulty":5,
+      "description":"In this hands-on lab, you will learn how to: Create Data Lake Stores, Create Data Lake Analytics accounts and connect them to Data Lake Stores, Import data into Azure Data Lake Stores, Run U-SQL jobs in Azure Data Lake Analytics, Federate Azure SQL Databases and query them with U-SQL. Please check the respective .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/11.%20Data%20Lake",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
+{
+      "title":"Virtual Machine Scaling and Performance",
+      "author":"Jeff Prosise",
+      "difficulty":5,
+      "description":"In this hands-on lab, you will run a compute-intensive job on three different Linux HPC clusters and compare performance. Please check the respective .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/10.%20VM%20Scaling",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
+
+
+{
+      "title":"Building a Custom Dashboard in a Day",
+      "author":"Jeff Prosise",
+      "difficulty":5,
+      "description":"The dataset you will you use today is a sales and market share analysis. This type of analysis is very common for the office of a Chief Marketing Officer (CMO). Please check the respective .md filee for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/9.%20PowerBI%20Dashboard",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+{
+      "title":"Building your first Azure IOT Solution",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"Azure IoT Suite brings the Internet of your things to life. Connect your devices, analyze previously-untapped data, and integrate business systems—and transform your company when you uncover new business models and revenue streams. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/8.%20IoT",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
+{
+      "title":"Apache Hadoop & Spark",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"Learn to use Apache Hadoop & Spark in this repo. Please check the respective .md files in each folder for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/7.%20HDInsight",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+{
+      "title":"Azure HPC and Azure Container Service",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"Learn to run docker and clusters in this repo! Check both folders. Please check the respective .md files in each folder for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/6.%20HPC%20and%20Containers",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
+
+{
+      "title":"Analyzing Data in Real Time with Azure Stream Analytics",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"In this lab, you'll create an Azure Stream Analytics job and use it to analyze data streaming in from simulated Internet of Things (IoT) devices. And you'll see how simple it is to monitor real-time data streams for information of significance to your research or business. Check the .md file for more info!",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/5.%20Stream%20Analytics",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+{
+      "title":"Building Smart Apps with Azure Machine Learning",
+      "author":"Jeff Prosise",
+      "difficulty":4,
+      "description":"In this lab, you will use Azure Machine Learning to build, train, and score a model that recognizes hand-written numeric digits. Check the .md file for more info!",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/4.%20Machine%20Learning",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+
+
+
+
 
 {
       "title":"Azure Storage and Cognitive Services",
