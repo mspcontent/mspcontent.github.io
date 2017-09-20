@@ -1,12 +1,101 @@
-﻿[ 
-
-
-
-
-
-
-
-{
+﻿[
+   {
+      "title":"Blockchain-as-a-Service on Azure",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"In this lab, you will deploy an Ethereum network on Azure and create your own cryptocurrency named My Coin to run on it. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/19.%20Blockchain%20on%20Azure",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Using the Microsoft Custom Vision Service to Perform Image Classification",
+      "author":"Jeff Prosise",
+      "difficulty":4,
+      "description":"In this lab, you will create a Custom Vision Service model, train it with images of famous paintings tagged with the artists' names, and utilize the model from a Node.js app to identify the artist of paintings that you upload. Along the way, you will learn how to train a Custom Vision Service model and leverage it from your apps using REST APIs. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/18.%20Custom%20Vision%20Service",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Building Interactive Notebooks with Azure Notebooks",
+      "author":"Jeff Prosise",
+      "difficulty":4,
+      "description":"Create a notebook in Azure notebooks. Also manipulate, visualize, and analyze its data. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/17.%20Azure%20Notebooks",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Building Neural Networks with the Microsoft Cognitive Toolkit",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"In this lab, you will use the MNIST database to train and test a pair of neural networks, and then use the trained models to identify hand-written digits. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/16.%20Cognitive%20Toolkit",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Building Intelligent Bots with the Microsoft Bot Framework",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"Software bots are everywhere. You probably interact with them every day without realizing it. Bots, especially chat and messenger bots, are changing the way we interact with businesses, communities, and even each other. In this lab, you'll be creating a chatbot. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/15.%20Bots",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Microsoft Language Understanding Intelligent Service (LUIS)",
+      "author":"Jeff Prosise",
+      "difficulty":3,
+      "description":"In this lab, you will create a LUIS application, configure a language-understanding model using both pre-built and custom entities, and define intents. Then you will build a bot that uses the model to respond to natural-language commands such as find news about Microsoft or get the latest soccer news. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/14.%20LUIS",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Azure Functions",
+      "author":"Jeff Prosise",
+      "difficulty":5,
+      "description":"In this lab, you will create an Azure Function that monitors a blob container in Azure Storage for new images, and then performs automated analysis of the images using the Microsoft Cognitive Services Computer Vision API.  Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/blob/master/Workshop/13.%20Azure%20Functions/Azure%20Functions%20HOL%20(JavaScript).md",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
+      "title":"Using Microsoft Power BI to Explore and Visualize Data",
+      "author":"Jeff Prosise",
+      "difficulty":5,
+      "description":"In this lab, you will use Microsoft Power BI to view sales data for a fictitious company and create reports and dashboards containing visualizations of that data. You will learn the basics of report creation and also learn various ways to share those reports with others, both internal and external to your organization. Please check the .md file for more info.",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/12.%20Power%20BI",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
       "title":"Handling Big Data with Azure Data Lake",
       "author":"Jeff Prosise",
       "difficulty":5,
@@ -18,9 +107,7 @@
          "Machine Learning"
       ]
    },
-
-
-{
+   {
       "title":"Virtual Machine Scaling and Performance",
       "author":"Jeff Prosise",
       "difficulty":5,
@@ -32,11 +119,7 @@
          "Machine Learning"
       ]
    },
-
-
-
-
-{
+   {
       "title":"Building a Custom Dashboard in a Day",
       "author":"Jeff Prosise",
       "difficulty":5,
@@ -48,8 +131,7 @@
          "Machine Learning"
       ]
    },
-
-{
+   {
       "title":"Building your first Azure IOT Solution",
       "author":"Jeff Prosise",
       "difficulty":3,
@@ -61,9 +143,7 @@
          "Machine Learning"
       ]
    },
-
-
-{
+   {
       "title":"Apache Hadoop & Spark",
       "author":"Jeff Prosise",
       "difficulty":3,
@@ -75,8 +155,7 @@
          "Machine Learning"
       ]
    },
-
-{
+   {
       "title":"Azure HPC and Azure Container Service",
       "author":"Jeff Prosise",
       "difficulty":3,
@@ -88,10 +167,7 @@
          "Machine Learning"
       ]
    },
-
-
-
-{
+   {
       "title":"Analyzing Data in Real Time with Azure Stream Analytics",
       "author":"Jeff Prosise",
       "difficulty":3,
@@ -103,8 +179,7 @@
          "Machine Learning"
       ]
    },
-
-{
+   {
       "title":"Building Smart Apps with Azure Machine Learning",
       "author":"Jeff Prosise",
       "difficulty":4,
@@ -116,12 +191,7 @@
          "Machine Learning"
       ]
    },
-
-
-
-
-
-{
+   {
       "title":"Azure Storage and Cognitive Services",
       "author":"Jeff Prosise",
       "difficulty":2,
@@ -133,9 +203,7 @@
          "Machine Learning"
       ]
    },
-
-
- {
+   {
       "title":"Azure Web Apps",
       "author":"Jeff Prosise",
       "difficulty":2,
@@ -147,7 +215,7 @@
          "Machine Learning"
       ]
    },
- {
+   {
       "title":"Introduction to Azure",
       "author":"Jeff Prosise",
       "difficulty":1,
@@ -159,7 +227,6 @@
          "Machine Learning"
       ]
    },
-
    {
       "title":"Django From Azure",
       "author":"Tim Reilly",
