@@ -36,6 +36,18 @@
       ]
    },
    {
+      "title":"Microsoft AI Workshop",
+      "author":"Lauren Tran",
+      "difficulty":2,
+      "description":"This provides both a short deck to introduce ML/AI concepts and give a landscape of the Microsoft AI stack. It also provides a beginner workshop tutorial for Azure Machine Learning and a sample corresponding dataset. Please check the .md file for more info.",
+      "link":"https://github.com/laurentran/microsoft-ai-workshop",
+      "tags":[
+         "Azure",
+         "Web",
+         "Machine Learning"
+      ]
+   },
+   {
       "title":"Building Neural Networks with the Microsoft Cognitive Toolkit",
       "author":"Jeff Prosise",
       "difficulty":3,
