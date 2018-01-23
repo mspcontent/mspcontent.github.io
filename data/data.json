@@ -51,8 +51,8 @@
       "title":"Building Neural Networks with the Microsoft Cognitive Toolkit",
       "author":"Jeff Prosise",
       "difficulty":3,
-      "description":"In this lab, you will use the MNIST database to train and test a pair of neural networks, and then use the trained models to identify hand-written digits. Please check the .md file for more info.",
-      "link":"https://github.com/MSFTImagine/computerscience/tree/master/Workshop/16.%20Cognitive%20Toolkit",
+      "description":"In this lab, you will use the MNIST database to train and test a pair of neural networks, and then use the trained models to identify hand-written digits. Please check the .md file for more info. ",
+      "link":"https://github.com/MSFTImagine/computerscience/tree/58561fe7d397843628d0100c8d288b597f5004dd/Workshop/AI%20and%20Machine%20Learning/Cognitive%20Toolkit",
       "tags":[
          "Azure",
          "Web",
